@@ -1,0 +1,9 @@
+@import "tailwindcss" prefix(tw);
+
+.translate-down {
+    transform: translateY(100%);
+}
+
+#action_bar {
+    transition: transform .3s ease-in-out;
+}

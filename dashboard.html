@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="node_modules/@tabler/core/dist/css/tabler.min.css"
+    />
+    <script
+      type="module"
+      src="node_modules/@tabler/core/dist/js/tabler.min.js"
+    ></script>
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <title>toRoll Dashboard</title>
+  </head>
+
+  <body>
+    <div
+      class="page d-grid pt-lg-3"
+      style="grid-template-columns: 1fr minmax(200px, 1600px) 1fr"
+    >
+      <div></div>
+      <div
+        class="page-wrapper d-grid gap-4"
+        style="grid-template-columns: minmax(400px, 1fr) 3fr"
+      >
+        <div class="p-4" style="justify-self: end" id="sidebar">
+          <h1 class="mb-4">toRoll Dashboard</h1>
+          <div class="col-auto d-print-none">
+            <h3 class="visually-hidden">Search and Analyze</h3>
+            <div class="d-flex">
+              <div class="w-full mb-3">
+                <div class="input-icon">
+                  <input
+                    id="scroll-search"
+                    onkeyup="searchScroll(this.value)"
+                    type="text"
+                    class="form-control"
+                    placeholder="Search..."
+                  />
+                  <span class="input-icon-addon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-search"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path
+                        d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"
+                      ></path>
+                      <path d="M21 21l-6 -6"></path>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="">
+              <div>
+                <h4 style="margin-bottom: 0" class="d-flex">Origin</h4>
+                <div class="form-selectgroup">
+                  <label class="form-selectgroup-item">
+                    <input
+                      type="checkbox"
+                      onclick="filterScroll('origin',this.value)"
+                      name="name"
+                      value="Ashkenaz"
+                      class="form-selectgroup-input"
+                    />
+                    <span class="form-selectgroup-label">Ashkenaz</span>
+                  </label>
+                  <label class="form-selectgroup-item">
+                    <input
+                      type="checkbox"
+                      onclick="filterScroll('origin',this.value)"
+                      name="name"
+                      value="Germany"
+                      class="form-selectgroup-input"
+                    />
+                    <span class="form-selectgroup-label">Germany</span>
+                  </label>
+                  <label class="form-selectgroup-item">
+                    <input
+                      type="checkbox"
+                      onclick="filterScroll('origin',this.value)"
+                      name="name"
+                      value="Spain"
+                      class="form-selectgroup-input"
+                    />
+                    <span class="form-selectgroup-label">Spain</span>
+                  </label>
+                  <label class="form-selectgroup-item">
+                    <input
+                      type="checkbox"
+                      onclick="filterScroll('origin',this.value)"
+                      name="name"
+                      value="Unknown"
+                      class="form-selectgroup-input"
+                    />
+                    <span class="form-selectgroup-label">Unknown</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div>
+                <h4 style="margin-bottom: 0" class="d-flex">Time</h4>
+                <div class="form-selectgroup">
+                  <label class="form-selectgroup-item">
+                    <input
+                      type="checkbox"
+                      onclick="filterScroll('publication_year',this.value)"
+                      name="name"
+                      value="13th century"
+                      class="form-selectgroup-input"
+                    />
+                    <span class="form-selectgroup-label"
+                      >13<sup>th</sup> century</span
+                    >
+                  </label>
+                  <label class="form-selectgroup-item">
+                    <input
+                      type="checkbox"
+                      onclick="filterScroll('publication_year',this.value)"
+                      name="name"
+                      value="14th century"
+                      class="form-selectgroup-input"
+                    />
+                    <span class="form-selectgroup-label"
+                      >14<sup>th</sup> century</span
+                    >
+                  </label>
+                  <label class="form-selectgroup-item">
+                    <input
+                      type="checkbox"
+                      onclick="filterScroll('publication_year',this.value)"
+                      name="name"
+                      value="15th century"
+                      class="form-selectgroup-input"
+                    />
+                    <span class="form-selectgroup-label"
+                      >15<sup>th</sup> century</span
+                    >
+                  </label>
+                  <label class="form-selectgroup-item">
+                    <input
+                      type="checkbox"
+                      onclick="filterScroll('publication_year',this.value)"
+                      name="name"
+                      value="16th century"
+                      class="form-selectgroup-input"
+                    />
+                    <span class="form-selectgroup-label"
+                      >16<sup>th</sup> century</span
+                    >
+                  </label>
+                  <label class="form-selectgroup-item">
+                    <input
+                      type="checkbox"
+                      onclick="filterScroll('publication_year',this.value)"
+                      name="name"
+                      value="Unknown"
+                      class="form-selectgroup-input"
+                    />
+                    <span class="form-selectgroup-label">Unknown</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div>
+                <h4 style="margin-bottom: 0" class="d-flex">Script Type</h4>
+                <div class="form-selectgroup">
+                  <label class="form-selectgroup-item">
+                    <input
+                      type="checkbox"
+                      onclick="filterScroll('script_type',this.value)"
+                      name="name"
+                      value="Ashkenazic"
+                      class="form-selectgroup-input"
+                    />
+                    <span class="form-selectgroup-label">Ashkenazic</span>
+                  </label>
+                  <label class="form-selectgroup-item">
+                    <input
+                      type="checkbox"
+                      onclick="filterScroll('script_type',this.value)"
+                      name="name"
+                      value="Sephardic"
+                      class="form-selectgroup-input"
+                    />
+                    <span class="form-selectgroup-label">Sephardic</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div>
+                <h4 style="margin-bottom: 0" class="d-flex">
+                  Current Location
+                </h4>
+                <div class="form-selectgroup">
+                  <label class="form-selectgroup-item">
+                    <input
+                      type="checkbox"
+                      onclick="filterScroll('current_location',this.value)"
+                      name="name"
+                      value="Berlin"
+                      class="form-selectgroup-input"
+                    />
+                    <span class="form-selectgroup-label">Berlin</span>
+                  </label>
+                  <label class="form-selectgroup-item">
+                    <input
+                      type="checkbox"
+                      onclick="filterScroll('current_location',this.value)"
+                      name="name"
+                      value="Kassel"
+                      class="form-selectgroup-input"
+                    />
+                    <span class="form-selectgroup-label">Kassel</span>
+                  </label>
+                  <label class="form-selectgroup-item">
+                    <input
+                      type="checkbox"
+                      onclick="filterScroll('current_location',this.value)"
+                      name="name"
+                      value="Parma"
+                      class="form-selectgroup-input"
+                    />
+                    <span class="form-selectgroup-label">Parma</span>
+                  </label>
+                  <label class="form-selectgroup-item">
+                    <input
+                      type="checkbox"
+                      onclick="filterScroll('current_location',this.value)"
+                      name="name"
+                      value="Wolfenbuettel"
+                      class="form-selectgroup-input"
+                    />
+                    <span class="form-selectgroup-label">Wolfenbuettel</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page-body pt-lg-2">
+          <div class="container-xl">
+            <div
+              id="roll_row"
+              class="row row-deck row-cards m-0 p-2 pt-0 pb-4 rounded-top-3 border tw:border-b-0!"
+              style="border: 2px solid var(--tblr-white); border-bottom: 0"
+            >
+              <div
+                id="no_results"
+                class="justify-content-center align-items-center d-flex visually-hidden pt-2 text-secondary"
+              >
+                No results found.
+              </div>
+            </div>
+            <div
+              class="p-2 d-flex justify-content-between align-items-center gap-3 bg-white text-secondary rounded-bottom-3 border"
+              id="action_bar"
+            >
+              <div class="d-flex align-items-center gap-2">
+                <button class="btn" onclick="selectAll()">Select all</button>
+                <button
+                  href="#"
+                  class="btn btn-ghost disabled"
+                  id="deselect_btn"
+                  onclick="deselectAll()"
+                >
+                  Deselect all
+                </button>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <div>
+                  You have selected
+                  <span id="selected_rolls_count">0</span> scrolls
+                </div>
+                <a
+                  href="#"
+                  class="btn btn-primary disabled"
+                  id="continue_btn"
+                  onclick="analyzeScrolls()"
+                  style="margin: 2px"
+                >
+                  Continue
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="ms-2 me-0 icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M9 6l6 6l-6 6" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer-logo" class="tw:mt-4 card tw:col-start-2 tw:mb-8 tw:self-end">
+        <div class="row row-deck">
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  class="tw:h-40"
+                  src="/logos/bmftr_attribution.jpg"
+                  alt="With funding from the Federal Ministry of Research, Technology and Spaces"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  class="tw:h-40"
+                  src="/logos/Logo_FUB.png"
+                  alt="Freie Universität Berlin"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  class="tw:h-40"
+                  src="/logos/Logo_KIT.png"
+                  alt="Karlsruhe Institute of Technology"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  class="tw:h-40"
+                  src="/logos/Logo_ToRoll.png"
+                  alt="ToRoll: Materialized Holiness"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+
+    <script type="module" src="js/dashboard.ts"></script>
+    <script type="module" src="js/search.ts"></script>
+  </body>
+</html>

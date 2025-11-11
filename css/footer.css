@@ -1,0 +1,11 @@
+/* forcing the images to keep their ratio */
+#footer-logo img {
+    object-fit: scale-down;
+}
+
+/* removing the border around the cards.
+    Has to be !important to overwrite
+    tabler.css. */
+#footer-logo .card {
+    border: none !important;
+}
