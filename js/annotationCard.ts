@@ -11,14 +11,17 @@ const USE_LOCAL_IMGS = true
 const repo_url = ""
 
 /**
+ * Opens and initializes the annotation card, based on the selected spot in the text and selected scrolls.
+ * Configures the tabs, clears previous content, and displays the relevant annotations, along with managing related UI components.
  *
- * @param selected_spot
- * @param selected_scrolls
+ * @param {HTMLSpanElement} selected_spot The currently selected span element representing a specific spot in the text.
+ * @param {string} selected_scrolls A comma-separated string of selected scroll IDs used to filter and display relevant annotations.
+ * @return {void} This function does not return a value but modifies the DOM elements and state of the application to display the annotation card.
  */
 window.openAnnoCard = function openAnnoCard(
   selected_spot: HTMLSpanElement,
   selected_scrolls: string,
-) {
+): void {
   console.log("selected spot", selected_spot)
 
   // force the first tab to be shown whenever the annotation card is openend
@@ -66,11 +69,19 @@ window.openAnnoCard = function openAnnoCard(
       .classList.add("visually-hidden")
   }
 
+  /**
+   * Renders an annotation image based on the matched annotations and other parameters.
+   *
+   * @param {Annotation[]} matching_annos - An array of annotation objects containing image or local image paths.
+   * @param {number} hit - The index of the target annotation within the matched annotations array.
+   * @param {HTMLAnchorElement} classification_term - The classification term anchor element used for alternate text and fallback placeholders.
+   * @return {HTMLImageElement} The rendered annotation image element.
+   */
   function renderAnnotationImage(
     matching_annos: Annotation[],
     hit: number,
     classification_term: HTMLAnchorElement,
-  ) {
+  ): HTMLImageElement {
     const fixedHeight = 100
 
     const img_link = matching_annos[hit].image

@@ -1,5 +1,12 @@
 import { AnnotationFile } from "./types/Annotations"
 
+/**
+ * Asynchronously loads annotation data for the specified book.
+ *
+ * @param {string} current_book - The name of the book whose annotations should be loaded.
+ * @return A promise that resolves to the parsed annotation data as a JSON object.
+ * @throws {Error} If there is an issue with the HTTP request or response.
+ */
 export async function loadAnnos(current_book: string) {
   const response = await fetch("/" + current_book + ".json")
   if (response.ok) {
@@ -9,10 +16,17 @@ export async function loadAnnos(current_book: string) {
   }
 }
 
+/**
+ * Retrieves annotations that correspond to the given selected manuscripts.
+ *
+ * @param {AnnotationFile} allAnnos - The collection of annotations for all manuscripts.
+ * @param {string[]} selectedscrolls - The identifiers of the manuscripts to filter annotations by.
+ * @return {Array.<[[string, number, number], string[], string]>} The filtered annotations corresponding to the selected manuscripts. Each entry consists of an XML selector, a list with a single annotation ID, and a vocabulary term.
+ */
 function getAnnosForManuscripts(
   allAnnos: AnnotationFile,
   selectedscrolls: string[],
-) {
+): Array<[[string, number, number], string[], string]> {
   const selectedAnnos = []
   for (const item in allAnnos) {
     // only select annos which stem from the selected scrolls
@@ -31,9 +45,26 @@ function getAnnosForManuscripts(
   return selectedAnnos
 }
 
+/**
+ * Represents the annotations derived from manuscripts using the `getAnnosForManuscripts` function.
+ *
+ * The `Annos` type is dynamically generated based on the return type of the `getAnnosForManuscripts` method,
+ * which integrates the data structure associated with annotations for specific manuscripts.
+ *
+ * This type is useful for ensuring type safety and consistency when working with annotation-related data
+ * produced by the `getAnnosForManuscripts` function.
+ */
 type Annos = ReturnType<typeof getAnnosForManuscripts>
 
-function sortAnnos1(unsorted_annos: Annos) {
+/**
+ * Sorts and processes an array of annotations. The annotations are sorted, reversed,
+ * and any annotations on the same letter are merged into one.
+ *
+ * @param {Annos} unsorted_annos - An array of annotations to be sorted and processed.
+ * @return {Annos} A sorted and processed array of annotations where overlapping or
+ * concurrent annotations are combined.
+ */
+function sortAnnos1(unsorted_annos: Annos): Annos {
   //sort and reverse anno array to get the right span creation order (console.log will always display the final array!)
   const sorted_annos = unsorted_annos.sort()
   sorted_annos.reverse()
@@ -65,7 +96,7 @@ function sortAnnos1(unsorted_annos: Annos) {
 export function prepareAnnosForHighlighting(
   annotations: AnnotationFile,
   selectedscrolls: string[],
-) {
+): Annos {
   const unsorted_annos = getAnnosForManuscripts(annotations, selectedscrolls)
   return sortAnnos1(unsorted_annos)
 }
