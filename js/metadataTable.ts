@@ -3,17 +3,32 @@ import { Annotation, AnnotationFile } from "./types/Annotations"
 import { createDecoratedLetterDiagram } from "./diagrams"
 import { createDisclosureToggle } from "./utils/dom"
 
-function tryJoin(str: string | string[]) {
+/**
+ * Attempts to join an array of strings into a single string, separated by commas.
+ * If the input is already a string, it returns the string as-is.
+ *
+ * @param {string | string[]} str - The input to process, either a string or an array of strings.
+ * @return {string} A single string, either joined from an array or the original string if no array is provided.
+ */
+function tryJoin(str: string | string[]): string {
   if (Array.isArray(str)) {
     return str.join(", ")
   } else return str
 }
 
+/**
+ * Creates and populates rows in the metadata table with information about the given scrolls.
+ *
+ * @param {Scroll[]} scrolls - An array of scroll objects containing metadata about each scroll.
+ * @param {string[]} selectedscrolls - An array of scroll IDs that are selected to be displayed in the metadata table.
+ * @param {AnnotationFile} data - An object containing annotation data associated with the scrolls.
+ * @return {void} This function does not return a value.
+ */
 export function createMetadataTable(
   scrolls: Scroll[],
   selectedscrolls: string[],
   data: AnnotationFile,
-) {
+): void {
   for (const selectedscroll in selectedscrolls) {
     for (const scroll in scrolls) {
       if (scrolls[scroll].id == selectedscrolls[selectedscroll]) {
@@ -60,6 +75,7 @@ export function createMetadataTable(
     }
   }
 }
+
 /**
  * create an additional row in the table for a scroll. The row is expandable/collapseable
  * and displays information (scroll facts) about the scroll.
@@ -78,12 +94,13 @@ function createScrollFactsExpandable(
   // expand/collapse "buttons". They work because the checkbox is hidden, but clicking
   // the label will check the checkbox and then css rules will hide/show
   // the factsRow (which is added later)
-  const { checkbox: $factsOpenCheckbox, label: $factsOpenLabel } = createDisclosureToggle(
-    `facts-open.${scroll.id}`,
-    ["scroll-facts-open"],
-    ["scroll-facts-open-label"],
-    `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>`,
-  )
+  const { checkbox: $factsOpenCheckbox, label: $factsOpenLabel } =
+    createDisclosureToggle(
+      `facts-open.${scroll.id}`,
+      ["scroll-facts-open"],
+      ["scroll-facts-open-label"],
+      `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>`,
+    )
   const $firstCell = $tableRow.querySelector("td")!
   $firstCell.appendChild($factsOpenCheckbox)
   $firstCell.appendChild($factsOpenLabel)

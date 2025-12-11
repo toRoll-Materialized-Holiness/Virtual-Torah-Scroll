@@ -1,6 +1,11 @@
 import type data from "./data/scrolls.json"
 import { AnnotationFile } from "./Annotations"
 
+/**
+ * Global application state.
+ *
+ * This is used to share data between components.
+ */
 type AppState = {
   currentChapterIndex: number
   chapters: HTMLElement[]

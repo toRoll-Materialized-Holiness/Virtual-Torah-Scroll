@@ -1,3 +1,7 @@
+/**
+ * Supplies behaviour for the up button that appears when scrolling down past the heading.
+ */
+
 const btn = document.querySelector("#upButton")
 
 if (!btn) throw "#upButton does not exist"

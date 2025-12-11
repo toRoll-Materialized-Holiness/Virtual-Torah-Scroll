@@ -1,10 +1,21 @@
 import { AnnotationFile } from "./types/Annotations"
-import { countAnnosPerChapter, manipulateData, mergeAnnoData } from "./utils/annotations"
+import {
+  countAnnosPerChapter,
+  manipulateData,
+  mergeAnnoData,
+} from "./utils/annotations"
 import { getSelectedScrolls } from "./localStorage"
 
 // Get ms ids from url and store in array
-const selectedscrolls = getSelectedScrolls();
-export function displayChapter() {
+const selectedscrolls = getSelectedScrolls()
+/**
+ * Displays the current chapter while hiding all other chapters
+ * based on the currentChapterIndex in the global app state.
+ * Also updates the chapter dropdown to reflect the current chapter.
+ *
+ * @return {void} This method does not return a value.
+ */
+export function displayChapter(): void {
   window.appstate.chapters.forEach((chapter, index) => {
     if (index === window.appstate.currentChapterIndex) {
       chapter.classList.remove("visually-hidden")
@@ -18,7 +29,15 @@ export function displayChapter() {
     window.appstate.currentChapterIndex + ""
 }
 
-export function initializeNavBar() {
+/**
+ * Initializes the navigation bar by adding event listeners to various elements
+ * for navigating through chapters in the application.
+ * Supports navigation to the next, previous, first, or last chapter,
+ * as well as selecting a chapter from a dropdown menu.
+ *
+ * @return {void} Does not return a value.
+ */
+export function initializeNavBar(): void {
   document
     .getElementById("prevChapter")!
     .addEventListener("click", function () {
@@ -70,7 +89,16 @@ export function initializeNavBar() {
     })
 }
 
-export function populateChapterDropdown(annotations: AnnotationFile) {
+/**
+ * Populates the chapter dropdown with options representing chapters
+ * and their associated annotation count, based on the data filtered by
+ * the selected scrolls.
+ *
+ * @param {AnnotationFile} annotations - The annotation file data used to filter
+ * and populate the dropdown with chapters and their annotation count.
+ * @return {void} Does not return a value. Side effect is populating the dropdown.
+ */
+export function populateChapterDropdown(annotations: AnnotationFile): void {
   const chapterSelect = document.getElementById("chapterSelect")!
   chapterSelect.innerHTML = "" // Clear previous options
 
@@ -96,10 +124,17 @@ export function populateChapterDropdown(annotations: AnnotationFile) {
   })
 }
 
+/**
+ * Renders the navigation bar based on the given chapter index and annotations.
+ *
+ * @param {number} chapterIndex - The index of the chapter to display initially. Defaults to 0 if not provided.
+ * @param {AnnotationFile} annotations - The annotation file containing metadata or additional details to populate the navigation.
+ * @return {void} This function does not return a value.
+ */
 export function renderNavBar(
   chapterIndex: number,
   annotations: AnnotationFile,
-) {
+): void {
   const chapters_node = document.querySelectorAll<HTMLElement>(
     'tei-div[type="chapter"]',
   )

@@ -4,10 +4,17 @@ import type { Scroll } from "./types/Scrolls"
 
 Chart.register(...registerables)
 
+/**
+ * Renders the material tab by populating table rows, creating a bar chart, and displaying images based on the given material annotation details and scroll data.
+ *
+ * @param {MaterialAnnotation} materialanno - The material annotation data containing ink type, ink batch, measurements, and associated images.
+ * @param {Scroll} scroll - The scroll information containing title and related data for the material tab display.
+ * @return {void} This method does not return any value.
+ */
 export function renderMaterialTab(
   materialanno: MaterialAnnotation,
   scroll: Scroll,
-) {
+): void {
   const materialtable = document
     .getElementById("materialtable")!
     .getElementsByTagName("tbody")[0]
