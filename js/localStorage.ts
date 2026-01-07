@@ -1,5 +1,5 @@
 /**
- * helper function to check, if the storage api is available
+ * helper function to check if the storage api is available
  * see https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
  * @param type
  * @returns
@@ -24,7 +24,7 @@ export function storageAvailable(type: string) {
 }
 
 /**
- * extract ids of.selected scroll by a user from localStorage or URL
+ * extract ids of selected scrolls by a user from localStorage or URL
  *
  * @returns array holding the ids of all the preselected scrolls
  */

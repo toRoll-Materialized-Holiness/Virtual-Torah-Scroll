@@ -1,13 +1,10 @@
 import { terms } from "../data/terms.json"
 import { AnnotationFile } from "./types/Annotations"
 import { renderEverything } from "./scroll"
-import { getSelectedScrolls } from "./localStorage"
 import { createDisclosureToggle } from "./utils/dom"
 
-// Get ms ids from url and store in array
-const selectedscrolls = getSelectedScrolls();
 /**
- * builds filter list and attaches eventListeners needed for filtering to the DOM
+ * builds a filter list and attaches eventListeners needed for filtering to the DOM
  *
  * @param $filterContainer container of the filter related Elements
  * @param annotations contains annotations per manuscript
@@ -54,10 +51,18 @@ export function initializeFilter(
 
 type CheckboxEvent = Event & { target: HTMLInputElement }
 
+/**
+ * Handles the state change of a term checkbox and propagates changes
+ * to related subfilter checkboxes.
+ *
+ * @param {HTMLElement} $filterContainer The container element within which the checkboxes are located.
+ * @param {CheckboxEvent} event - The checkbox change event that triggers this handler.
+ * @return {void} This function does not return any value.
+ */
 function handleTermCheckbox(
   $filterContainer: HTMLElement,
   event: CheckboxEvent,
-) {
+): void {
   const term = event.target.dataset.term
 
   if (!event.target.checked) {
@@ -75,10 +80,18 @@ function handleTermCheckbox(
   }
 }
 
+/**
+ * Handles the behavior of a subterm checkbox, updating the state of its parent term checkbox
+ * based on the checked state and the states of sibling subterm checkboxes.
+ *
+ * @param $filterContainer The container element that holds the filter checkboxes.
+ * @param event The checkbox event containing information about the triggered subterm checkbox.
+ * @return {void}
+ */
 function handleSubtermCheckbox(
   $filterContainer: HTMLElement,
   event: CheckboxEvent,
-) {
+): void {
   const term = event.target.dataset.term
 
   const parent = $filterContainer.querySelector<HTMLInputElement>(
@@ -116,8 +129,8 @@ function handleSubtermCheckbox(
 
 /**
  * callback for every checkbox to enable/disable the button to apply filters.
- * The button to apply filters should only be enabled, when a checkbox is checked (/a filter is
- * selected). This prevents users from applying a filter, that would hide all annotations.
+ * The button to apply filters should only be enabled when at least one checkbox is checked (/a filter is
+ * selected). This prevents users from applying an empty filter that would hide all annotations.
  * @param $filterContainer contains the filter bar
  */
 function toggleApplyButton($filterContainer: HTMLElement) {
@@ -130,7 +143,7 @@ function toggleApplyButton($filterContainer: HTMLElement) {
 }
 
 /**
- * creates tree structure for available classifications in the annotation data and appends the elements
+ * creates a tree structure for available classifications in the annotation data and appends the elements
  * to the filterContainer.
  * - [ ] alef
  *   - [ ] alef_1000
@@ -186,12 +199,13 @@ function createCheckboxes(
     label.innerText = term
     el.append(label)
 
-    const { checkbox: subfilterOpenCheckbox, label: subfilterOpenLabel } = createDisclosureToggle(
-      `subfilter-open.${term}`,
-      ["anno-filter-open"],
-      ["anno-filter-open-label"],
-      `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>`,
-    )
+    const { checkbox: subfilterOpenCheckbox, label: subfilterOpenLabel } =
+      createDisclosureToggle(
+        `subfilter-open.${term}`,
+        ["anno-filter-open"],
+        ["anno-filter-open-label"],
+        `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>`,
+      )
 
     const checkbox = document.createElement("input")
     checkbox.type = "checkbox"
@@ -281,7 +295,7 @@ function createCheckboxes(
 }
 
 /**
- * get all classifications selected by user
+ * get all classifications selected by the user
  *
  * @param $filterContainer container of the filter related Elements
  * @returns list of values of selected checkboxes (i.e. classifications selected by a user)
@@ -326,10 +340,10 @@ function uncheckCheckboxes($filterContainer: HTMLElement) {
 }
 
 /**
- * filters the annotations based on the classifciations selected by a user (via the checkboxey
+ * filters the annotations based on the classifications selected by a user (via the checkboxes
  * in the filterContainer) and renders text, annotation highlights and diagrams accordingly
  *
- * @param $filterContainer container of the filter related Elements
+ * @param $filterContainer container of the filter elements
  */
 function applyFilter($filterContainer: HTMLElement) {
   const activeFilters = getSelectedClassifications($filterContainer)

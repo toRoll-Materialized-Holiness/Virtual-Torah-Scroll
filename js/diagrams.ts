@@ -19,29 +19,12 @@ import { getAvailableChapterNumbers } from "./utils/dom"
 Chart.register(...registerables)
 
 /**
- *  creates a diagram with given data on given element. The resulting diagram will display
- * the amount of annotations per chapter summarized for the whole corpus
+ * creates a diagram with given data on given element. The resulting diagram will display
+ * the number of annotations per chapter summarized for the whole corpus
  *
- * @param {JSON} data contains annotations per manuscript in following format
- * [
- *  {
- *    "ms_id": "7b0f243c-cb0d-4d54-963b-310e18bb117a",
- *    "annos" : [{
- *        "anno_id": "annoid_a1",
- *        "xml_selector": ["w.1", 4, 1]
- *    }],
- *    "anno_total":2
- *  }, {
- *    "ms_id": "f46d00d0-cad2-4a4d-90c9-e0a22c844f3d",
- *    "annos" : [{
- *      "anno_id": "annoid_c3",
- *       "xml_selector": ["w.1", 3, 1]
- *     }],
- *     "anno_total":2
- *   }
- * ]
- * @param $text the element containing the text
- * @param $diagramContainer the container for the diagram
+ * @param {AnnotationFile} data contains annotations per manuscript
+ * @param {HTMLSpanElement} $text the element containing the text of the scroll
+ * @param {HTMLElement} $diagramContainer the container for the diagram
  */
 export function createSummaryBarDiagram(
   data: AnnotationFile,
@@ -101,29 +84,12 @@ export function createSummaryBarDiagram(
 
 /**
  * creates a diagram with given data on given element. The resulting diagram will display
- * the amount of annotations per chapter for each given manuscript seperately
+ * the number of annotations per chapter for each given manuscript separately
  *
- * @param {JSON} data contains annotations per manuscript in following format
- * [
- *  {
- *    "ms_id": "7b0f243c-cb0d-4d54-963b-310e18bb117a",
- *    "annos" : [{
- *        "anno_id": "annoid_a1",
- *        "xml_selector": ["w.1", 4, 1]
- *    }],
- *    "anno_total":2
- *  }, {
- *    "ms_id": "f46d00d0-cad2-4a4d-90c9-e0a22c844f3d",
- *    "annos" : [{
- *      "anno_id": "annoid_c3",
- *       "xml_selector": ["w.1", 3, 1]
- *     }],
- *     "anno_total":2
- *   }
- * ]
- * @param scrolls holds information about the scrolls
- * @param $text the element containing the text
- * @param $diagramContainer the container for the diagram
+ * @param {AnnotationFile} data contains annotations per manuscript
+ * @param {Scroll[]} scrolls holds information about the scrolls
+ * @param {HTMLElement} $text the element containing the text of the scroll
+ * @param {HTMLElement} $diagramContainer the container for the diagram
  */
 export function createBarDiagram(
   data: AnnotationFile,
@@ -177,38 +143,38 @@ export function createBarDiagram(
 }
 
 /**
- * callback to be executed when a user clicks on a data point. This will open
+ * callback to be executed when a user clicks on a data point in a diagram. This will open
  * the chapter corresponding to the clicked data point
  *
- * @param idx Selected chapter
- * which dataPointIndex was selected of which series
+ * @param idx Index of the clicked data point.
  */
 function selectDataPoint(idx: number) {
-  // you can't use the chapter number here as the navigation/displayChapter() uses indeces
+  // you can't use the chapter number here as the navigation/displayChapter() uses indexes
   window.appstate.currentChapterIndex = idx
   displayChapter()
 }
 
-
 /**
- * converts the data into a format, that can be used to create bardiagrams with ApexCharts.
+ * converts the data into a format that can be used to create bar diagrams with ApexCharts.
  * Counts the number of annotations per chapter for the whole corpus
  *
  * @param data containing information about the annotations and the chapters, they can be found, in
  * for multiple manuscripts
  * @param $text containing chapters, needed to find all existing chapters of a text
- * @returns data that can be used to create bardiagrams with ApexCharts in format:
- *  [
- *      {
- *          x: 1,
- *          y: 23
- *      },
- *      {
- *          x: 2,
- *          y: 43
- *      }
+ * @returns data that can be used to create bar diagrams with ApexCharts in format:
+ * ```json
+ * [
+ *     {
+ *         x: 1,
+ *         y: 23
+ *     },
+ *     {
+ *         x: 2,
+ *         y: 43
+ *     }
  * ]
- * where x is the chapter number and y is the amount of annotations in the given chapter
+ * ```
+ * where x is the chapter number and y is the number of annotations in the given chapter
  */
 function createSummaryBarChartData(
   data: Omit<AnnotationFile, "ms_id">,
@@ -231,7 +197,7 @@ function createSummaryBarChartData(
 }
 
 /**
- * converts the data into a format, that can be used to create bardiagrams with ApexCharts.
+ * converts the data into a format that can be used to create bar diagrams with ApexCharts.
  * Counts the number of annotations per chapter for each manuscript
  *
  * @param data containing information about the annotations and the chapters, they can be found, in
@@ -239,6 +205,7 @@ function createSummaryBarChartData(
  * @param scrolls holds information about the scrolls
  * @param $text containing chapters, needed to find all existing chapters of a text
  * @returns data that can be used to create bardiagrams with ApexCharts in format:
+ * ```json
  *  [
  *      {
  *          x: 1,
@@ -257,7 +224,8 @@ function createSummaryBarChartData(
  *          y: 15
  *      }
  * ]
- * where x is the chapter number and y is the amount of annotations in the given chapter. It can hold
+ * ```
+ * where x is the chapter number and y is the number of annotations in the given chapter. It can hold
  * multiple entries for the same x key/value pair as multiple manuscripts can be given
  */
 function createBarChartData(
@@ -293,20 +261,11 @@ function createBarChartData(
   return series
 }
 
-
 /**
  * count the number of annotations on every letter
  *
  * @param annotations of one scroll
- * [
- *  {
- *   "anno_id": "e939d2f6",
- *   "vocab_term": "beit_1210000",
- *   "xml_selector": [ "w.1", 1, 1],
- *   "text_id": "9dd17849"
- *  }, {...}
- * ]
- * @returns countObject holding the amount of annotations for each letter in the
+ * @returns countObject holding the number of annotations for each letter in the
  * form {letter: amount, letter: amount ...}
  */
 function countAnnosPerLetter(annotations: Annotation[]) {
@@ -435,14 +394,6 @@ function countAnnosPerLetter(annotations: Annotation[]) {
  * creates a diagram displaying the number of annotations per letter
  *
  * @param data annotations of one scroll
- * [
- *  {
- *   "anno_id": "e939d2f6",
- *   "vocab_term": "beit_1210000",
- *   "xml_selector": [ "w.1", 1, 1],
- *   "text_id": "9dd17849"
- *  }, {...}
- * ]
  * @param $diagramContainer the container for the diagram
  */
 export function createDecoratedLetterDiagram(

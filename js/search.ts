@@ -10,10 +10,19 @@ const activeFilter: Map<ScrollAttribute, string[]> = new Map()
 let filteredScrolls: string[] = []
 let lastSearchValue = ""
 
+/**
+ * Updates and manages the activeFilter map by adding or removing filter values associated with a specified filter field.
+ * If the filter value is already present, it is removed. Otherwise, it is added. If no filter values remain for a field, the field is removed from the map.
+ * The method also updates the scroll elements to reflect the current state of active filters.
+ *
+ * @param {ScrollAttribute} filterField - The attribute or field by which the scroll items are being filtered.
+ * @param {string} filterValue - The specific value to be added or removed from the filter list for the given filter field.
+ * @return {void} This method does not return a value but modifies the global `activeFilter` map and triggers visual updates.
+ */
 window.filterScroll = function filterScroll(
   filterField: ScrollAttribute,
   filterValue: string,
-) {
+): void {
   if (activeFilter.has(filterField)) {
     const entry = activeFilter.get(filterField)!
     if (entry.indexOf(filterValue) === -1) {
@@ -31,13 +40,26 @@ window.filterScroll = function filterScroll(
   updateScrolls()
 }
 
-window.searchScroll = function searchScroll(searchValue: string) {
+/**
+ * Updates the scroll view based on the specified search value.
+ *
+ * @param {string} searchValue - The value to search and update the scrolls.
+ * @return {void} This function does not return anything.
+ */
+window.searchScroll = function searchScroll(searchValue: string): void {
   lastSearchValue = searchValue
 
   updateScrolls()
 }
 
-function updateScrolls() {
+/**
+ * Updates the visibility of scroll elements based on active filters and search queries.
+ * Filters the collection of scrolls by checking against active filters and search criteria,
+ * and manages the visibility of DOM elements representing the scrolls accordingly.
+ *
+ * @return {void} This method does not return a value.
+ */
+function updateScrolls(): void {
   filteredScrolls = []
 
   for (const scroll of scrolls) {
@@ -96,7 +118,12 @@ function updateScrolls() {
   console.log(filteredScrolls)
 }
 
-window.analyzeScrolls = function analyzeScrolls() {
+/**
+ * Navigates to the scroll analysis page, passing the selected scrolls as query parameters.
+ *
+ * @return {void} Does not return a value. The method performs side effects, such as storing data and redirecting to a new page.
+ */
+window.analyzeScrolls = function analyzeScrolls(): void {
   const checkboxes = document.querySelectorAll(
     ".form-imagecheck-input",
   ) as NodeListOf<HTMLInputElement>
@@ -111,17 +138,22 @@ window.analyzeScrolls = function analyzeScrolls() {
   let url = "/scroll.html"
 
   if (storageAvailable("localStorage")) {
-    localStorage.setItem("selectedScrolls", JSON.stringify(selectedScrolls));
+    localStorage.setItem("selectedScrolls", JSON.stringify(selectedScrolls))
   } else {
     if (selectedScrolls.length > 0) {
-      url = url + "?ids=" + selectedScrolls.join(",");
+      url = url + "?ids=" + selectedScrolls.join(",")
     }
   }
 
   location.href = url
 }
 
-window.deselectAll = function deselectAll() {
+/**
+ * Deselects all scrolls in the dashboard by unchecking their corresponding checkboxes.
+ *
+ * @return {void} This method does not return a value.
+ */
+window.deselectAll = function deselectAll(): void {
   const checkboxes = document.querySelectorAll(
     ".form-imagecheck-input",
   ) as NodeListOf<HTMLInputElement>
@@ -135,7 +167,12 @@ window.deselectAll = function deselectAll() {
   }
 }
 
-window.selectAll = function selectAll() {
+/**
+ * Selects all scrolls in the dashboard by checking their corresponding checkboxes.
+ *
+ * @return {void} This method does not return a value.
+ */
+window.selectAll = function selectAll(): void {
   const checkboxes = document.querySelectorAll(
     ".scroll:not(.visually-hidden) .form-imagecheck-input",
   ) as NodeListOf<HTMLInputElement>

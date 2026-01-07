@@ -1,9 +1,16 @@
 import "./annotationCard"
 
+/**
+ * Highlights the scroll text based on the provided annotations.
+ *
+ * @param {Array} sorted_annos - The array of sorted annotation data
+ * @param {string[]} selectedscrolls - An array of strings representing the currently selected scrolls
+ * @return {void} This method does not return a value. It modifies the DOM by adding highlight spans and adjusts styles and attributes based on annotations.
+ */
 export function highlightText(
   sorted_annos: [[string, number, number], string[], string][],
   selectedscrolls: string[],
-) {
+): void {
   let maxAnnosPerSpotSelected = 0
 
   sorted_annos.forEach((arraylength) => {

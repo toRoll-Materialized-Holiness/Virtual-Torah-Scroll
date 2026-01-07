@@ -11,6 +11,10 @@ import { highlightText } from "./highlight"
 import { createBarDiagram, createSummaryBarDiagram } from "./diagrams"
 import { getSelectedScrolls } from "./localStorage"
 
+/**
+ * This is the main script for the scroll page
+ */
+
 console.time("initialRender")
 
 // using window variables as openAnnoCard() needs some variables, and to mock a state
@@ -34,16 +38,18 @@ window.appstate.current_book = teiFiles.value ?? "1_Genesis"
 window.appstate.scrolls = data
 
 // Get ms ids from url and store in array
-const selectedscrolls = getSelectedScrolls();
+const selectedscrolls = getSelectedScrolls()
 
 // redirect users back to the dashboard, if no scrolls have been selected.
 // This should only happen if the user opens the scroll.html directly in a new
 // (incognito) window/tab and therefore, the localStorage doesn't contain a
 // selection of scrolls
 if (selectedscrolls.length === 0) {
-  const confirmation = confirm("No scrolls have been selected. Do you want to go back to the dashboard and select any?");
-  if (confirmation){
-    window.location.href = "dashboard.html" 
+  const confirmation = confirm(
+    "No scrolls have been selected. Do you want to go back to the dashboard and select any?",
+  )
+  if (confirmation) {
+    window.location.href = "dashboard.html"
   } else {
     console.warn("No scrolls")
   }
