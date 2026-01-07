@@ -158,9 +158,7 @@ window.openAnnoCard = function openAnnoCard(
       for (const materialanno in material) {
         // only show material tab if Kassel is one of the selected scrolls
         if (
-          matching_annos[hit].anno_id === material[materialanno].anno_id &&
-          window.appstate.scrolls[scroll].id ===
-            "7b0f243c-cb0d-4d54-963b-310e18bb117a"
+          matching_annos[hit].anno_id === material[materialanno].anno_id
         ) {
           renderMaterialTab(
             material[materialanno],
