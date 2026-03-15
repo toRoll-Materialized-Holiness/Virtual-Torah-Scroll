@@ -55,8 +55,3 @@ maintainer = true
 
 [config]
 verbose = true
-
-<<<<<<< HEAD
-=======
-
->>>>>>> release-1.0.0
