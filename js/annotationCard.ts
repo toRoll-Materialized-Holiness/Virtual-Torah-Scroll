@@ -4,7 +4,7 @@ import { renderMaterialTab } from "./material"
 import sefertagindata from "../data/sefertagin.json"
 
 // Provide voc_url to redirect to vocabulary term
-const voc_url = ""
+const voc_url = "https://w3id.org/toRoll/vocs/taginOM/"
 
 const USE_LOCAL_IMGS = true
 // if USE_LOCAL_IMGS is set to false, please provide the url of the image resources here
