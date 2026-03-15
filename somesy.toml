@@ -1,0 +1,58 @@
+[project]
+name = "Virtual-Torah-Scroll"
+version = "v1.0.0"
+description = "The Virtual Torah Scroll is a web-based interface designed to visualize and investigate metadata and data of paleographic details of multiple medieval Torah scrolls. "
+
+keywords = ["WADM", "Torah", "tagin", "metadata", "extraction", "annotation"]
+license = "Apache-2.0"
+repository = "https://github.com/toRoll-Testing/Virtual-Torah-Scroll"
+
+# authors of the project:
+
+[[project.people]]
+given-names = "Laura"
+family-names = "Frank"
+orcid = "https://orcid.org/0000-0001-6286-2771"
+affiliation = "Karlsruhe Institute of Technology (KIT)"
+author = true
+maintainer = false
+
+
+[[project.people]]
+given-names = "Germaine"
+family-names = "Götzelmann"
+affiliation = "Karlsruhe Institute of Technology (KIT)"
+orcid = "https://orcid.org/0000-0003-3974-3728"
+author = true      
+maintainer = true  
+
+[[project.people]]
+given-names = "Christopher"
+family-names = "Raquet"
+orcid = "https://orcid.org/0009-0003-2196-9187"
+affiliation = "Karlsruhe Institute of Technology (KIT)"
+author = true
+maintainer = false
+
+[[project.people]]
+given-names = "Philipp"
+family-names = "Tögel"
+orcid = "https://orcid.org/0000-0002-1791-0268"
+affiliation = "Karlsruhe Institute of Technology (KIT)"
+author = true
+maintainer = false
+
+[[project.people]]
+given-names = "Danah"
+family-names = "Tonne"
+orcid = "https://orcid.org/0000-0001-6296-7282"
+affiliation = "Karlsruhe Institute of Technology (KIT)"
+author = true
+maintainer = true
+
+
+
+
+[config]
+verbose = true
+
