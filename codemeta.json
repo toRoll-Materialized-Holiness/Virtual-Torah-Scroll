@@ -1,0 +1,85 @@
+{
+  "@context": [
+    "https://doi.org/10.5063/schema/codemeta-2.0",
+    "https://w3id.org/software-iodata",
+    "https://raw.githubusercontent.com/jantman/repostatus.org/master/badges/latest/ontology.jsonld",
+    "https://schema.org",
+    "https://w3id.org/software-types"
+  ],
+  "@type": "SoftwareSourceCode",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Laura",
+      "familyName": "Frank",
+      "@id": "https://orcid.org/0000-0001-6286-2771",
+      "identifier": "https://orcid.org/0000-0001-6286-2771",
+      "affiliation": "Karlsruhe Institute of Technology (KIT)"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Germaine",
+      "familyName": "Götzelmann",
+      "@id": "https://orcid.org/0000-0003-3974-3728",
+      "identifier": "https://orcid.org/0000-0003-3974-3728",
+      "affiliation": "Karlsruhe Institute of Technology (KIT)"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Christopher",
+      "familyName": "Raquet",
+      "@id": "https://orcid.org/0009-0003-2196-9187",
+      "identifier": "https://orcid.org/0009-0003-2196-9187",
+      "affiliation": "Karlsruhe Institute of Technology (KIT)"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Philipp",
+      "familyName": "Tögel",
+      "@id": "https://orcid.org/0000-0002-1791-0268",
+      "identifier": "https://orcid.org/0000-0002-1791-0268",
+      "affiliation": "Karlsruhe Institute of Technology (KIT)"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Danah",
+      "familyName": "Tonne",
+      "@id": "https://orcid.org/0000-0001-6296-7282",
+      "identifier": "https://orcid.org/0000-0001-6296-7282",
+      "affiliation": "Karlsruhe Institute of Technology (KIT)"
+    }
+  ],
+  "name": "Virtual-Torah-Scroll",
+  "description": "The Virtual Torah Scroll is a web-based interface designed to visualize and investigate metadata and data of paleographic details of multiple medieval Torah scrolls.",
+  "version": "v1.0.0",
+  "keywords": [
+    "WADM",
+    "Torah",
+    "tagin",
+    "metadata",
+    "extraction",
+    "annotation"
+  ],
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Germaine",
+      "familyName": "Götzelmann",
+      "@id": "https://orcid.org/0000-0003-3974-3728",
+      "identifier": "https://orcid.org/0000-0003-3974-3728",
+      "affiliation": "Karlsruhe Institute of Technology (KIT)"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Danah",
+      "familyName": "Tonne",
+      "@id": "https://orcid.org/0000-0001-6296-7282",
+      "identifier": "https://orcid.org/0000-0001-6296-7282",
+      "affiliation": "Karlsruhe Institute of Technology (KIT)"
+    }
+  ],
+  "license": [
+    "https://spdx.org/licenses/Apache-2.0"
+  ],
+  "codeRepository": "https://github.com/toRoll-Testing/Virtual-Torah-Scroll"
+}
