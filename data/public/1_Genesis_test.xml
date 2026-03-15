@@ -1,0 +1,1293 @@
+<text xml:lang="hbo" xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+    <div type="book" n="Genesis" xml:id="b.1">
+      <div n="1" type="chapter" xml:id="c.1">
+        <ab n="1" type="verse" xml:id="v.1.1">
+          <w xml:id="w.1">בראשית</w>
+          <w xml:id="w.2">ברא</w>
+          <w xml:id="w.3">אלהים</w>
+          <w xml:id="w.4">את</w>
+          <w xml:id="w.5">השמים</w>
+          <w xml:id="w.6">ואת</w>
+          <w xml:id="w.7">הארץ</w>
+        </ab>
+        <ab n="2" type="verse" xml:id="v.1.2">
+          <w xml:id="w.8">והארץ</w>
+          <w xml:id="w.9">היתה</w>
+          <w xml:id="w.10">תהו</w>
+          <w xml:id="w.11">ובהו</w>
+          <w xml:id="w.12">וחשך</w>
+          <w xml:id="w.13">על</w>
+          <w xml:id="w.14">פני</w>
+          <w xml:id="w.15">תהום</w>
+          <w xml:id="w.16">ורוח</w>
+          <w xml:id="w.17">אלהים</w>
+          <w xml:id="w.18">מרחפת</w>
+          <w xml:id="w.19">על</w>
+          <w xml:id="w.20">פני</w>
+          <w xml:id="w.21">המים</w>
+        </ab>
+        <ab n="3" type="verse" xml:id="v.1.3">
+          <w xml:id="w.22">ויאמר</w>
+          <w xml:id="w.23">אלהים</w>
+          <w xml:id="w.24">יהי</w>
+          <w xml:id="w.25">אור</w>
+          <w xml:id="w.26">ויהי</w>
+          <w xml:id="w.27">אור</w>
+        </ab>
+        <ab n="4" type="verse" xml:id="v.1.4">
+          <w xml:id="w.28">וירא</w>
+          <w xml:id="w.29">אלהים</w>
+          <w xml:id="w.30">את</w>
+          <w xml:id="w.31">האור</w>
+          <w xml:id="w.32">כי</w>
+          <w xml:id="w.33">טוב</w>
+          <w xml:id="w.34">ויבדל</w>
+          <w xml:id="w.35">אלהים</w>
+          <w xml:id="w.36">בין</w>
+          <w xml:id="w.37">האור</w>
+          <w xml:id="w.38">ובין</w>
+          <w xml:id="w.39">החשך</w>
+        </ab>
+        <ab n="5" type="verse" xml:id="v.1.5">
+          <w xml:id="w.40">ויקרא</w>
+          <w xml:id="w.41">אלהים </w>
+          <w xml:id="w.42">לאור</w>
+          <w xml:id="w.43">יום</w>
+          <w xml:id="w.44">ולחשך</w>
+          <w xml:id="w.45">קרא</w>
+          <w xml:id="w.46">לילה</w>
+          <w xml:id="w.47">ויהי</w>
+          <w xml:id="w.48">ערב</w>
+          <w xml:id="w.49">ויהי</w>
+          <w xml:id="w.50">בקר</w>
+          <w xml:id="w.51">יום</w>
+          <w xml:id="w.52">אחד</w>
+          <space quantity="1" unit="pe" />
+        </ab>
+        <ab n="6" type="verse" xml:id="v.1.6">
+          <w xml:id="w.53">ויאמר</w>
+          <w xml:id="w.54">אלהים</w>
+          <w xml:id="w.55">יהי</w>
+          <w xml:id="w.56">רקיע</w>
+          <w xml:id="w.57">בתוך</w>
+          <w xml:id="w.58">המים</w>
+          <w xml:id="w.59">ויהי</w>
+          <w xml:id="w.60">מבדיל</w>
+          <w xml:id="w.61">בין</w>
+          <w xml:id="w.62">מים</w>
+          <w xml:id="w.63">למים</w>
+        </ab>
+        <ab n="7" type="verse" xml:id="v.1.7">
+          <w xml:id="w.64">ויעש</w>
+          <w xml:id="w.65">אלהים</w>
+          <w xml:id="w.66">את</w>
+          <w xml:id="w.67">הרקיע</w>
+          <w xml:id="w.68">ויבדל</w>
+          <w xml:id="w.69">בין</w>
+          <w xml:id="w.70">המים</w>
+          <w xml:id="w.71">אשר</w>
+          <w xml:id="w.72">מתחת</w>
+          <w xml:id="w.73">לרקיע</w>
+          <w xml:id="w.74">ובין</w>
+          <w xml:id="w.75">המים</w>
+          <w xml:id="w.76">אשר</w>
+          <w xml:id="w.77">מעל</w>
+          <w xml:id="w.78">לרקיע</w>
+          <w xml:id="w.79">ו͏יהי</w>
+          <w xml:id="w.80">כן</w>
+        </ab>
+        <ab n="8" type="verse" xml:id="v.1.8">
+          <w xml:id="w.81">ויקרא</w>
+          <w xml:id="w.82">אלהים</w>
+          <w xml:id="w.83">לרקיע</w>
+          <w xml:id="w.84">שמים</w>
+          <w xml:id="w.85">ויהי</w>
+          <w xml:id="w.86">ערב</w>
+          <w xml:id="w.87">ויהי</w>
+          <w xml:id="w.88">בקר</w>
+          <w xml:id="w.89">יום</w>
+          <w xml:id="w.90">שני</w>
+          <space quantity="1" unit="pe" />
+        </ab>
+        <ab n="9" type="verse" xml:id="v.1.9">
+          <w xml:id="w.91">ויאמר</w>
+          <w xml:id="w.92">אלהים</w>
+          <w xml:id="w.93">יקוו</w>
+          <w xml:id="w.94">המים</w>
+          <w xml:id="w.95">מתחת</w>
+          <w xml:id="w.96">השמים</w>
+          <w xml:id="w.97">אל</w>
+          <w xml:id="w.98">מקום</w>
+          <w xml:id="w.99">אחד</w>
+          <w xml:id="w.100">ותראה</w>
+          <w xml:id="w.101">היבשה</w>
+          <w xml:id="w.102">ויהי</w>
+          <w xml:id="w.103">כן</w>
+        </ab>
+        <ab n="10" type="verse" xml:id="v.1.10">
+          <w xml:id="w.104">ויקרא</w>
+          <w xml:id="w.105">אלהים </w>
+          <w xml:id="w.106">ליבשה</w>
+          <w xml:id="w.107">ארץ</w>
+          <w xml:id="w.108">ולמקוה</w>
+          <w xml:id="w.109">המים</w>
+          <w xml:id="w.110">קרא</w>
+          <w xml:id="w.111">ימים</w>
+          <w xml:id="w.112">וירא</w>
+          <w xml:id="w.113">אלהים</w>
+          <w xml:id="w.114">כי</w>
+          <w xml:id="w.115">טוב</w>
+        </ab>
+        <ab n="11" type="verse" xml:id="v.1.11">
+          <w xml:id="w.116">ויאמר</w>
+          <w xml:id="w.117">אלהים</w>
+          <w xml:id="w.118">תדשא</w>
+          <w xml:id="w.119">הארץ</w>
+          <w xml:id="w.120">דשא</w>
+          <w xml:id="w.121">עשב</w>
+          <w xml:id="w.122">מזריע</w>
+          <w xml:id="w.123">זרע</w>
+          <w xml:id="w.124">עץ</w>
+          <w xml:id="w.125">פרי</w>
+          <w xml:id="w.126">עשה</w>
+          <w xml:id="w.127">פרי</w>
+          <w xml:id="w.128">למינו</w>
+          <w xml:id="w.129">אשר</w>
+          <w xml:id="w.130">זרעו</w>
+          <w xml:id="w.131">בו</w>
+          <w xml:id="w.132">על</w>
+          <w xml:id="w.133">הארץ</w>
+          <w xml:id="w.134">ויהי</w>
+          <w xml:id="w.135">כן</w>
+        </ab>
+        <ab n="12" type="verse" xml:id="v.1.12">
+          <w xml:id="w.136">ותוצא</w>
+          <w xml:id="w.137">הארץ</w>
+          <w xml:id="w.138">דשא</w>
+          <w xml:id="w.139">עשב</w>
+          <w xml:id="w.140">מזריע</w>
+          <w xml:id="w.141">זרע</w>
+          <w xml:id="w.142">למינהו</w>
+          <w xml:id="w.143">ועץ</w>
+          <w xml:id="w.144">עשה</w>
+          <w xml:id="w.145">פרי</w>
+          <w xml:id="w.146">אשר</w>
+          <w xml:id="w.147">זרעו</w>
+          <w xml:id="w.148">בו</w>
+          <w xml:id="w.149">למינהו</w>
+          <w xml:id="w.150">וירא</w>
+          <w xml:id="w.151">אלהים</w>
+          <w xml:id="w.152">כי</w>
+          <w xml:id="w.153">טוב</w>
+        </ab>
+        <ab n="13" type="verse" xml:id="v.1.13">
+          <w xml:id="w.154">ו͏יהי</w>
+          <w xml:id="w.155">ערב</w>
+          <w xml:id="w.156">ו͏יהי</w>
+          <w xml:id="w.157">בקר</w>
+          <w xml:id="w.158">יום</w>
+          <w xml:id="w.159">שלישי</w>
+          <space quantity="1" unit="pe" />
+        </ab>
+        <ab n="14" type="verse" xml:id="v.1.14">
+          <w xml:id="w.160">ויאמר</w>
+          <w xml:id="w.161">אלהים</w>
+          <w xml:id="w.162">יהי</w>
+          <w xml:id="w.163">מארת</w>
+          <w xml:id="w.164">ברקיע</w>
+          <w xml:id="w.165">השמים</w>
+          <w xml:id="w.166">להבדיל</w>
+          <w xml:id="w.167">בין</w>
+          <w xml:id="w.168">היום</w>
+          <w xml:id="w.169">ובין</w>
+          <w xml:id="w.170">הלילה</w>
+          <w xml:id="w.171">והיו</w>
+          <w xml:id="w.172">לאתת</w>
+          <w xml:id="w.173">ולמועדים</w>
+          <w xml:id="w.174">ולימים</w>
+          <w xml:id="w.175">ושנים</w>
+        </ab>
+        <ab n="15" type="verse" xml:id="v.1.15">
+          <w xml:id="w.176">והיו</w>
+          <w xml:id="w.177">למאורת</w>
+          <w xml:id="w.178">ברקיע</w>
+          <w xml:id="w.179">השמים</w>
+          <w xml:id="w.180">להאיר</w>
+          <w xml:id="w.181">על</w>
+          <w xml:id="w.182">הארץ</w>
+          <w xml:id="w.183">ו͏יהי</w>
+          <w xml:id="w.184">כן</w>
+        </ab>
+        <ab n="16" type="verse" xml:id="v.1.16">
+          <w xml:id="w.185">ויעש</w>
+          <w xml:id="w.186">אלהים</w>
+          <w xml:id="w.187">את</w>
+          <w xml:id="w.188">שני</w>
+          <w xml:id="w.189">המארת</w>
+          <w xml:id="w.190">הגדלים</w>
+          <w xml:id="w.191">את</w>
+          <w xml:id="w.192">המאור</w>
+          <w xml:id="w.193">הגדל</w>
+          <w xml:id="w.194">לממשלת</w>
+          <w xml:id="w.195">היום</w>
+          <w xml:id="w.196">ואת</w>
+          <w xml:id="w.197">המאור</w>
+          <w xml:id="w.198">הקטן</w>
+          <w xml:id="w.199">לממשלת</w>
+          <w xml:id="w.200">הלילה</w>
+          <w xml:id="w.201">ואת</w>
+          <w xml:id="w.202">הכוכבים</w>
+        </ab>
+        <ab n="17" type="verse" xml:id="v.1.17">
+          <w xml:id="w.203">ויתן</w>
+          <w xml:id="w.204">אתם</w>
+          <w xml:id="w.205">אלהים</w>
+          <w xml:id="w.206">ברקיע</w>
+          <w xml:id="w.207">השמים</w>
+          <w xml:id="w.208">להאיר</w>
+          <w xml:id="w.209">על</w>
+          <w xml:id="w.210">הארץ</w>
+        </ab>
+        <ab n="18" type="verse" xml:id="v.1.18">
+          <w xml:id="w.211">ולמשל</w>
+          <w xml:id="w.212">ביום</w>
+          <w xml:id="w.213">ובלילה</w>
+          <w xml:id="w.214">ולהבדיל</w>
+          <w xml:id="w.215">בין</w>
+          <w xml:id="w.216">האור</w>
+          <w xml:id="w.217">ובין</w>
+          <w xml:id="w.218">החשך</w>
+          <w xml:id="w.219">וירא</w>
+          <w xml:id="w.220">אלהים</w>
+          <w xml:id="w.221">כי</w>
+          <w xml:id="w.222">טוב</w>
+        </ab>
+        <ab n="19" type="verse" xml:id="v.1.19">
+          <w xml:id="w.223">ויהי</w>
+          <w xml:id="w.224">ערב</w>
+          <w xml:id="w.225">ויהי</w>
+          <w xml:id="w.226">בקר</w>
+          <w xml:id="w.227">יום</w>
+          <w xml:id="w.228">רביעי</w>
+          <space quantity="1" unit="pe" />
+        </ab>
+        <ab n="20" type="verse" xml:id="v.1.20">
+          <w xml:id="w.229">ויאמר</w>
+          <w xml:id="w.230">אלהים</w>
+          <w xml:id="w.231">ישרצו</w>
+          <w xml:id="w.232">המים</w>
+          <w xml:id="w.233">שרץ</w>
+          <w xml:id="w.234">נפש</w>
+          <w xml:id="w.235">חיה</w>
+          <w xml:id="w.236">ועוף</w>
+          <w xml:id="w.237">יעופף</w>
+          <w xml:id="w.238">על</w>
+          <w xml:id="w.239">הארץ</w>
+          <w xml:id="w.240">על</w>
+          <w xml:id="w.241">פני</w>
+          <w xml:id="w.242">רקיע</w>
+          <w xml:id="w.243">השמים</w>
+        </ab>
+        <ab n="21" type="verse" xml:id="v.1.21">
+          <w xml:id="w.244">ויברא</w>
+          <w xml:id="w.245">אלהים</w>
+          <w xml:id="w.246">את</w>
+          <w xml:id="w.247">התנינם</w>
+          <w xml:id="w.248">הגדלים</w>
+          <w xml:id="w.249">ואת</w>
+          <w xml:id="w.250">כל</w>
+          <w xml:id="w.251">נפש</w>
+          <w xml:id="w.252">ה͏חיה </w>
+          <w xml:id="w.253">הרמשת</w>
+          <w xml:id="w.254">אשר</w>
+          <w xml:id="w.255">שרצו</w>
+          <w xml:id="w.256">המים</w>
+          <w xml:id="w.257">למינהם</w>
+          <w xml:id="w.258">ואת</w>
+          <w xml:id="w.259">כל</w>
+          <w xml:id="w.260">עוף</w>
+          <w xml:id="w.261">כנף</w>
+          <w xml:id="w.262">למינהו</w>
+          <w xml:id="w.263">וירא</w>
+          <w xml:id="w.264">אלהים</w>
+          <w xml:id="w.265">כי</w>
+          <w xml:id="w.266">טוב</w>
+        </ab>
+        <ab n="22" type="verse" xml:id="v.1.22">
+          <w xml:id="w.267">ויברך</w>
+          <w xml:id="w.268">אתם</w>
+          <w xml:id="w.269">אלהים</w>
+          <w xml:id="w.270">לאמר</w>
+          <w xml:id="w.271">פרו</w>
+          <w xml:id="w.272">ורבו</w>
+          <w xml:id="w.273">ומלאו</w>
+          <w xml:id="w.274">את</w>
+          <w xml:id="w.275">המים</w>
+          <w xml:id="w.276">בימים</w>
+          <w xml:id="w.277">והעוף</w>
+          <w xml:id="w.278">ירב</w>
+          <w xml:id="w.279">בארץ</w>
+        </ab>
+        <ab n="23" type="verse" xml:id="v.1.23">
+          <w xml:id="w.280">ויהי</w>
+          <w xml:id="w.281">ערב</w>
+          <w xml:id="w.282">ויהי</w>
+          <w xml:id="w.283">בקר</w>
+          <w xml:id="w.284">יום</w>
+          <w xml:id="w.285">חמישי</w>
+          <space quantity="1" unit="pe" />
+        </ab>
+        <ab n="24" type="verse" xml:id="v.1.24">
+          <w xml:id="w.286">ויאמר</w>
+          <w xml:id="w.287">אלהים</w>
+          <w xml:id="w.288">תוצא</w>
+          <w xml:id="w.289">הארץ</w>
+          <w xml:id="w.290">נפש</w>
+          <w xml:id="w.291">חיה</w>
+          <w xml:id="w.292">למינה</w>
+          <w xml:id="w.293">בהמה</w>
+          <w xml:id="w.294">ורמש</w>
+          <w xml:id="w.295">וחיתו</w>
+          <w xml:id="w.296">ארץ</w>
+          <w xml:id="w.297">למינה</w>
+          <w xml:id="w.298">ויהי</w>
+          <w xml:id="w.299">כן</w>
+        </ab>
+        <ab n="25" type="verse" xml:id="v.1.25">
+          <w xml:id="w.300">ויעש</w>
+          <w xml:id="w.301">אלהים</w>
+          <w xml:id="w.302">את</w>
+          <w xml:id="w.303">חית</w>
+          <w xml:id="w.304">הארץ</w>
+          <w xml:id="w.305">למינה</w>
+          <w xml:id="w.306">ואת</w>
+          <w xml:id="w.307">הבהמה</w>
+          <w xml:id="w.308">למינה</w>
+          <w xml:id="w.309">ואת</w>
+          <w xml:id="w.310">כל</w>
+          <w xml:id="w.311">רמש</w>
+          <w xml:id="w.312">האדמה</w>
+          <w xml:id="w.313">למינהו</w>
+          <w xml:id="w.314">וירא</w>
+          <w xml:id="w.315">אלהים</w>
+          <w xml:id="w.316">כי</w>
+          <w xml:id="w.317">טוב</w>
+        </ab>
+        <ab n="26" type="verse" xml:id="v.1.26">
+          <w xml:id="w.318">ויאמר</w>
+          <w xml:id="w.319">אלהים</w>
+          <w xml:id="w.320">נעשה</w>
+          <w xml:id="w.321">אדם</w>
+          <w xml:id="w.322">בצלמנו</w>
+          <w xml:id="w.323">כדמותנו</w>
+          <w xml:id="w.324">וירדו</w>
+          <w xml:id="w.325">בדגת</w>
+          <w xml:id="w.326">הים</w>
+          <w xml:id="w.327">ובעוף</w>
+          <w xml:id="w.328">השמים</w>
+          <w xml:id="w.329">ובבהמה</w>
+          <w xml:id="w.330">ובכל</w>
+          <w xml:id="w.331">הארץ</w>
+          <w xml:id="w.332">ובכל</w>
+          <w xml:id="w.333">הרמש</w>
+          <w xml:id="w.334">ה͏רמש</w>
+          <w xml:id="w.335">על</w>
+          <w xml:id="w.336">הארץ</w>
+        </ab>
+        <ab n="27" type="verse" xml:id="v.1.27">
+          <w xml:id="w.337">ויברא</w>
+          <w xml:id="w.338">אלהים </w>
+          <w xml:id="w.339">את</w>
+          <w xml:id="w.340">ה͏אדם</w>
+          <w xml:id="w.341">בצלמו</w>
+          <w xml:id="w.342">בצלם</w>
+          <w xml:id="w.343">אלהים</w>
+          <w xml:id="w.344">ברא</w>
+          <w xml:id="w.345">אתו</w>
+          <w xml:id="w.346">זכר</w>
+          <w xml:id="w.347">ונקבה</w>
+          <w xml:id="w.348">ברא</w>
+          <w xml:id="w.349">אתם</w>
+        </ab>
+        <ab n="28" type="verse" xml:id="v.1.28">
+          <w xml:id="w.350">ויברך</w>
+          <w xml:id="w.351">אתם</w>
+          <w xml:id="w.352">אלהים</w>
+          <w xml:id="w.353">ויאמר</w>
+          <w xml:id="w.354">להם</w>
+          <w xml:id="w.355">אלהים</w>
+          <w xml:id="w.356">פרו</w>
+          <w xml:id="w.357">ורבו</w>
+          <w xml:id="w.358">ומלאו</w>
+          <w xml:id="w.359">את</w>
+          <w xml:id="w.360">הארץ</w>
+          <w xml:id="w.361">וכבשה</w>
+          <w xml:id="w.362">ורדו</w>
+          <w xml:id="w.363">בדגת</w>
+          <w xml:id="w.364">הים</w>
+          <w xml:id="w.365">ובעוף</w>
+          <w xml:id="w.366">השמים</w>
+          <w xml:id="w.367">ובכל</w>
+          <w xml:id="w.368">חיה</w>
+          <w xml:id="w.369">ה͏רמשת</w>
+          <w xml:id="w.370">על</w>
+          <w xml:id="w.371">הארץ</w>
+        </ab>
+        <ab n="29" type="verse" xml:id="v.1.29">
+          <w xml:id="w.372">ויאמר</w>
+          <w xml:id="w.373">אלהים</w>
+          <w xml:id="w.374">הנה</w>
+          <w xml:id="w.375">נתתי</w>
+          <w xml:id="w.376">לכם</w>
+          <w xml:id="w.377">את</w>
+          <w xml:id="w.378">כל</w>
+          <w xml:id="w.379">עשב </w>
+          <w xml:id="w.380">זרע</w>
+          <w xml:id="w.381">זרע</w>
+          <w xml:id="w.382">אשר</w>
+          <w xml:id="w.383">על</w>
+          <w xml:id="w.384">פני</w>
+          <w xml:id="w.385">כל</w>
+          <w xml:id="w.386">הארץ</w>
+          <w xml:id="w.387">ואת</w>
+          <w xml:id="w.388">כל</w>
+          <w xml:id="w.389">העץ</w>
+          <w xml:id="w.390">אשר</w>
+          <w xml:id="w.391">בו</w>
+          <w xml:id="w.392">פרי</w>
+          <w xml:id="w.393">עץ</w>
+          <w xml:id="w.394">זרע</w>
+          <w xml:id="w.395">זרע</w>
+          <w xml:id="w.396">לכם</w>
+          <w xml:id="w.397">יהיה</w>
+          <w xml:id="w.398">לאכלה</w>
+        </ab>
+        <ab n="30" type="verse" xml:id="v.1.30">
+          <w xml:id="w.399">ולכל</w>
+          <w xml:id="w.400">חית</w>
+          <w xml:id="w.401">הארץ</w>
+          <w xml:id="w.402">ולכל</w>
+          <w xml:id="w.403">עוף</w>
+          <w xml:id="w.404">השמים</w>
+          <w xml:id="w.405">ולכל </w>
+          <w xml:id="w.406">רומש</w>
+          <w xml:id="w.407">על</w>
+          <w xml:id="w.408">הארץ</w>
+          <w xml:id="w.409">אשר</w>
+          <w xml:id="w.410">בו</w>
+          <w xml:id="w.411">נפש</w>
+          <w xml:id="w.412">חיה</w>
+          <w xml:id="w.413">את</w>
+          <w xml:id="w.414">כל</w>
+          <w xml:id="w.415">ירק</w>
+          <w xml:id="w.416">עשב</w>
+          <w xml:id="w.417">לאכלה</w>
+          <w xml:id="w.418">ויהי</w>
+          <w xml:id="w.419">כן</w>
+        </ab>
+        <ab n="31" type="verse" xml:id="v.1.31">
+          <w xml:id="w.420">וירא</w>
+          <w xml:id="w.421">אלהים</w>
+          <w xml:id="w.422">את</w>
+          <w xml:id="w.423">כל</w>
+          <w xml:id="w.424">אשר</w>
+          <w xml:id="w.425">עשה</w>
+          <w xml:id="w.426">והנה</w>
+          <w xml:id="w.427">טוב</w>
+          <w xml:id="w.428">מאד</w>
+          <w xml:id="w.429">ו͏יהי</w>
+          <w xml:id="w.430">ערב</w>
+          <w xml:id="w.431">ו͏יהי</w>
+          <w xml:id="w.432">בקר</w>
+          <w xml:id="w.433">יום</w>
+          <w xml:id="w.434">הששי</w>
+          <space quantity="1" unit="pe" />
+        </ab>
+        </div>
+      <div n="2" type="chapter" xml:id="c.2">
+        <ab n="1" type="verse" xml:id="v.2.1">
+          <w xml:id="w.435">ויכלו</w>
+          <w xml:id="w.436">השמים</w>
+          <w xml:id="w.437">והארץ</w>
+          <w xml:id="w.438">וכל</w>
+          <w xml:id="w.439">צבאם</w>
+        </ab>
+        <ab n="2" type="verse" xml:id="v.2.2">
+          <w xml:id="w.440">ויכל</w>
+          <w xml:id="w.441">אלהים</w>
+          <w xml:id="w.442">ביום</w>
+          <w xml:id="w.443">השביעי</w>
+          <w xml:id="w.444">מלאכתו</w>
+          <w xml:id="w.445">אשר</w>
+          <w xml:id="w.446">עשה</w>
+          <w xml:id="w.447">וישבת</w>
+          <w xml:id="w.448">ביום</w>
+          <w xml:id="w.449">השביעי</w>
+          <w xml:id="w.450">מכל</w>
+          <w xml:id="w.451">מלאכתו</w>
+          <w xml:id="w.452">אשר</w>
+          <w xml:id="w.453">עשה</w>
+        </ab>
+        <ab n="3" type="verse" xml:id="v.2.3">
+          <w xml:id="w.454">ויברך</w>
+          <w xml:id="w.455">אלהים</w>
+          <w xml:id="w.456">את</w>
+          <w xml:id="w.457">יום</w>
+          <w xml:id="w.458">השביעי</w>
+          <w xml:id="w.459">ויקדש</w>
+          <w xml:id="w.460">אתו</w>
+          <w xml:id="w.461">כי</w>
+          <w xml:id="w.462">בו</w>
+          <w xml:id="w.463">שבת</w>
+          <w xml:id="w.464">מכל</w>
+          <w xml:id="w.465">מלאכתו</w>
+          <w xml:id="w.466">אשר</w>
+          <w xml:id="w.467">ברא</w>
+          <w xml:id="w.468">אלהים</w>
+          <w xml:id="w.469">לעשות</w>
+          <space quantity="1" unit="pe" />
+        </ab>
+        <ab n="4" type="verse" xml:id="v.2.4">
+          <w xml:id="w.470">אלה</w>
+          <w xml:id="w.471">תולדות</w>
+          <w xml:id="w.472">השמים</w>
+          <w xml:id="w.473">והארץ</w>
+          <w xml:id="w.474">בהבראם</w>
+          <w xml:id="w.475">ביום</w>
+          <w xml:id="w.476">עשות</w>
+          <w xml:id="w.477">יהוה</w>
+          <w xml:id="w.478">אלהים</w>
+          <w xml:id="w.479">ארץ</w>
+          <w xml:id="w.480">ושמים</w>
+        </ab>
+        <ab n="5" type="verse" xml:id="v.2.5">
+          <w xml:id="w.481">וכל </w>
+          <w xml:id="w.482">שיח</w>
+          <w xml:id="w.483">השדה</w>
+          <w xml:id="w.484">טרם</w>
+          <w xml:id="w.485">יהיה</w>
+          <w xml:id="w.486">בארץ</w>
+          <w xml:id="w.487">וכל</w>
+          <w xml:id="w.488">עשב</w>
+          <w xml:id="w.489">השדה</w>
+          <w xml:id="w.490">טרם</w>
+          <w xml:id="w.491">יצמח</w>
+          <w xml:id="w.492">כי</w>
+          <w xml:id="w.493">לא</w>
+          <w xml:id="w.494">המטיר</w>
+          <w xml:id="w.495">יהוה</w>
+          <w xml:id="w.496">אלהים</w>
+          <w xml:id="w.497">על</w>
+          <w xml:id="w.498">הארץ</w>
+          <w xml:id="w.499">ואדם</w>
+          <w xml:id="w.500">אין</w>
+          <w xml:id="w.501">לעבד</w>
+          <w xml:id="w.502">את</w>
+          <w xml:id="w.503">ה͏אדמה</w>
+        </ab>
+        <ab n="6" type="verse" xml:id="v.2.6">
+          <w xml:id="w.504">ואד</w>
+          <w xml:id="w.505">יעלה</w>
+          <w xml:id="w.506">מן</w>
+          <w xml:id="w.507">הארץ</w>
+          <w xml:id="w.508">והשקה</w>
+          <w xml:id="w.509">את</w>
+          <w xml:id="w.510">כל</w>
+          <w xml:id="w.511">פני</w>
+          <w xml:id="w.512">האדמה</w>
+        </ab>
+        <ab n="7" type="verse" xml:id="v.2.7">
+          <w xml:id="w.513">וייצר</w>
+          <w xml:id="w.514">יהוה</w>
+          <w xml:id="w.515">אלהים</w>
+          <w xml:id="w.516">את</w>
+          <w xml:id="w.517">האדם</w>
+          <w xml:id="w.518">עפר</w>
+          <w xml:id="w.519">מן</w>
+          <w xml:id="w.520">האדמה</w>
+          <w xml:id="w.521">ויפח</w>
+          <w xml:id="w.522">באפיו</w>
+          <w xml:id="w.523">נשמת</w>
+          <w xml:id="w.524">חיים</w>
+          <w xml:id="w.525">ויהי</w>
+          <w xml:id="w.526">האדם</w>
+          <w xml:id="w.527">לנפש</w>
+          <w xml:id="w.528">חיה</w>
+        </ab>
+        <ab n="8" type="verse" xml:id="v.2.8">
+          <w xml:id="w.529">ויטע</w>
+          <w xml:id="w.530">יהוה</w>
+          <w xml:id="w.531">אלהים</w>
+          <w xml:id="w.532">גן</w>
+          <w xml:id="w.533">בעדן</w>
+          <w xml:id="w.534">מקדם</w>
+          <w xml:id="w.535">וישם</w>
+          <w xml:id="w.536">שם</w>
+          <w xml:id="w.537">את</w>
+          <w xml:id="w.538">האדם</w>
+          <w xml:id="w.539">אשר</w>
+          <w xml:id="w.540">יצר</w>
+        </ab>
+        <ab n="9" type="verse" xml:id="v.2.9">
+          <w xml:id="w.541">ויצמח</w>
+          <w xml:id="w.542">יהוה</w>
+          <w xml:id="w.543">אלהים</w>
+          <w xml:id="w.544">מן</w>
+          <w xml:id="w.545">האדמה</w>
+          <w xml:id="w.546">כל</w>
+          <w xml:id="w.547">עץ</w>
+          <w xml:id="w.548">נחמד</w>
+          <w xml:id="w.549">למראה</w>
+          <w xml:id="w.550">וטוב</w>
+          <w xml:id="w.551">למאכל</w>
+          <w xml:id="w.552">ועץ</w>
+          <w xml:id="w.553">החיים</w>
+          <w xml:id="w.554">בתוך</w>
+          <w xml:id="w.555">הגן</w>
+          <w xml:id="w.556">ועץ</w>
+          <w xml:id="w.557">הדעת</w>
+          <w xml:id="w.558">טוב</w>
+          <w xml:id="w.559">ורע</w>
+        </ab>
+        <ab n="10" type="verse" xml:id="v.2.10">
+          <w xml:id="w.560">ונהר
+          </w>
+          <w xml:id="w.561">יצא</w>
+          <w xml:id="w.562">מעדן</w>
+          <w xml:id="w.563">להשקות</w>
+          <w xml:id="w.564">את</w>
+          <w xml:id="w.565">הגן</w>
+          <w xml:id="w.566">ומשם</w>
+          <w xml:id="w.567">יפרד</w>
+          <w xml:id="w.568">והיה</w>
+          <w xml:id="w.569">לארבעה</w>
+          <w xml:id="w.570">ראשים</w>
+        </ab>
+        <ab n="11" type="verse" xml:id="v.2.11">
+          <w xml:id="w.571">שם</w>
+          <w xml:id="w.572">האחד</w>
+          <w xml:id="w.573">פישון</w>
+          <w xml:id="w.574">הוא</w>
+          <w xml:id="w.575">הסבב</w>
+          <w xml:id="w.576">את</w>
+          <w xml:id="w.577">כל</w>
+          <w xml:id="w.578">ארץ</w>
+          <w xml:id="w.579">החוילה</w>
+          <w xml:id="w.580">אשר</w>
+          <w xml:id="w.581">שם</w>
+          <w xml:id="w.582">הזהב</w>
+        </ab>
+        <ab n="12" type="verse" xml:id="v.2.12">
+          <w xml:id="w.583">וזהב</w>
+          <w xml:id="w.584">הארץ</w>
+          <w xml:id="w.585">ההוא</w>
+          <w xml:id="w.586">טוב</w>
+          <w xml:id="w.587">שם</w>
+          <w xml:id="w.588">הבדלח</w>
+          <w xml:id="w.589">ואבן</w>
+          <w xml:id="w.590">השהם</w>
+        </ab>
+        <ab n="13" type="verse" xml:id="v.2.13">
+          <w xml:id="w.591">ושם</w>
+          <w xml:id="w.592">הנהר</w>
+          <w xml:id="w.593">השני</w>
+          <w xml:id="w.594">גיחון</w>
+          <w xml:id="w.595">הוא</w>
+          <w xml:id="w.596">הסובב</w>
+          <w xml:id="w.597">את</w>
+          <w xml:id="w.598">כל</w>
+          <w xml:id="w.599">ארץ</w>
+          <w xml:id="w.600">כוש</w>
+        </ab>
+        <ab n="14" type="verse" xml:id="v.2.14">
+          <w xml:id="w.601">ושם</w>
+          <w xml:id="w.602">הנהר</w>
+          <w xml:id="w.603">השלישי</w>
+          <w xml:id="w.604">חדקל</w>
+          <w xml:id="w.605">הוא</w>
+          <w xml:id="w.606">ההלך</w>
+          <w xml:id="w.607">קדמת</w>
+          <w xml:id="w.608">אשור</w>
+          <w xml:id="w.609">והנהר</w>
+          <w xml:id="w.610">הרביעי</w>
+          <w xml:id="w.611">הוא</w>
+          <w xml:id="w.612">פרת</w>
+        </ab>
+        <ab n="15" type="verse" xml:id="v.2.15">
+          <w xml:id="w.613">ויקח</w>
+          <w xml:id="w.614">יהוה</w>
+          <w xml:id="w.615">אלהים</w>
+          <w xml:id="w.616">את</w>
+          <w xml:id="w.617">האדם</w>
+          <w xml:id="w.618">וינחהו</w>
+          <w xml:id="w.619">בגן</w>
+          <w xml:id="w.620">עדן</w>
+          <w xml:id="w.621">לעבדה</w>
+          <w xml:id="w.622">ולשמרה</w>
+        </ab>
+        <ab n="16" type="verse" xml:id="v.2.16">
+          <w xml:id="w.623">ויצו</w>
+          <w xml:id="w.624">יהוה</w>
+          <w xml:id="w.625">אלהים</w>
+          <w xml:id="w.626">על</w>
+          <w xml:id="w.627">האדם</w>
+          <w xml:id="w.628">לאמר</w>
+          <w xml:id="w.629">מכל</w>
+          <w xml:id="w.630">עץ</w>
+          <w xml:id="w.631">הגן</w>
+          <w xml:id="w.632">אכל</w>
+          <w xml:id="w.633">תאכל</w>
+        </ab>
+        <ab n="17" type="verse" xml:id="v.2.17">
+          <w xml:id="w.634">ומעץ</w>
+          <w xml:id="w.635">הדעת</w>
+          <w xml:id="w.636">טוב</w>
+          <w xml:id="w.637">ורע</w>
+          <w xml:id="w.638">לא</w>
+          <w xml:id="w.639">תאכל</w>
+          <w xml:id="w.640">ממנו</w>
+          <w xml:id="w.641">כי</w>
+          <w xml:id="w.642">ביום</w>
+          <w xml:id="w.643">אכלך</w>
+          <w xml:id="w.644">ממנו</w>
+          <w xml:id="w.645">מות</w>
+          <w xml:id="w.646">תמות</w>
+        </ab>
+        <ab n="18" type="verse" xml:id="v.2.18">
+          <w xml:id="w.647">ויאמר</w>
+          <w xml:id="w.648">יהוה</w>
+          <w xml:id="w.649">אלהים</w>
+          <w xml:id="w.650">לא</w>
+          <w xml:id="w.651">טוב</w>
+          <w xml:id="w.652">היות</w>
+          <w xml:id="w.653">האדם</w>
+          <w xml:id="w.654">לבדו</w>
+          <w xml:id="w.655">א͏עשה</w>
+          <w xml:id="w.656">לו</w>
+          <w xml:id="w.657">עזר</w>
+          <w xml:id="w.658">כנגדו</w>
+        </ab>
+        <ab n="19" type="verse" xml:id="v.2.19">
+          <w xml:id="w.659">ויצר</w>
+          <w xml:id="w.660">יהוה</w>
+          <w xml:id="w.661">אלהים</w>
+          <w xml:id="w.662">מן</w>
+          <w xml:id="w.663">האדמה</w>
+          <w xml:id="w.664">כל</w>
+          <w xml:id="w.665">חית</w>
+          <w xml:id="w.666">השדה</w>
+          <w xml:id="w.667">ואת</w>
+          <w xml:id="w.668">כל</w>
+          <w xml:id="w.669">עוף</w>
+          <w xml:id="w.670">השמים</w>
+          <w xml:id="w.671">ויבא</w>
+          <w xml:id="w.672">אל</w>
+          <w xml:id="w.673">האדם</w>
+          <w xml:id="w.674">לראות</w>
+          <w xml:id="w.675">מה</w>
+          <w xml:id="w.676">יקרא</w>
+          <w xml:id="w.677">לו</w>
+          <w xml:id="w.678">וכל</w>
+          <w xml:id="w.679">אשר</w>
+          <w xml:id="w.680">יקרא</w>
+          <w xml:id="w.681">לו</w>
+          <w xml:id="w.682">ה͏אדם</w>
+          <w xml:id="w.683">נפש</w>
+          <w xml:id="w.684">חיה</w>
+          <w xml:id="w.685">הוא</w>
+          <w xml:id="w.686">שמו</w>
+        </ab>
+        <ab n="20" type="verse" xml:id="v.2.20">
+          <w xml:id="w.687">ויקרא</w>
+          <w xml:id="w.688">האדם</w>
+          <w xml:id="w.689">שמות</w>
+          <w xml:id="w.690">לכל</w>
+          <w xml:id="w.691">הבהמה</w>
+          <w xml:id="w.692">ולעוף</w>
+          <w xml:id="w.693">השמים</w>
+          <w xml:id="w.694">ולכל</w>
+          <w xml:id="w.695">חית</w>
+          <w xml:id="w.696">השדה</w>
+          <w xml:id="w.697">ולאדם</w>
+          <w xml:id="w.698">לא</w>
+          <w xml:id="w.699">מצא</w>
+          <w xml:id="w.700">עזר</w>
+          <w xml:id="w.701">כנגדו</w>
+        </ab>
+        <ab n="21" type="verse" xml:id="v.2.21">
+          <w xml:id="w.702">ויפל</w>
+          <w xml:id="w.703">יהוה</w>
+          <w xml:id="w.704">אלהים </w>
+          <w xml:id="w.705">תרדמה</w>
+          <w xml:id="w.706">על</w>
+          <w xml:id="w.707">האדם</w>
+          <w xml:id="w.708">ויישן</w>
+          <w xml:id="w.709">ויקח</w>
+          <w xml:id="w.710">אחת</w>
+          <w xml:id="w.711">מצלעתיו</w>
+          <w xml:id="w.712">ויסגר</w>
+          <w xml:id="w.713">בשר</w>
+          <w xml:id="w.714">תחתנה</w>
+        </ab>
+        <ab n="22" type="verse" xml:id="v.2.22">
+          <w xml:id="w.715">ויבן</w>
+          <w xml:id="w.716">יהוה</w>
+          <w xml:id="w.717">אלהים </w>
+          <w xml:id="w.718">את</w>
+          <w xml:id="w.719">הצלע</w>
+          <w xml:id="w.720">אשר</w>
+          <w xml:id="w.721">לקח</w>
+          <w xml:id="w.722">מן</w>
+          <w xml:id="w.723">האדם</w>
+          <w xml:id="w.724">לאשה</w>
+          <w xml:id="w.725">ויבאה</w>
+          <w xml:id="w.726">אל</w>
+          <w xml:id="w.727">ה͏אדם</w>
+        </ab>
+        <ab n="23" type="verse" xml:id="v.2.23">
+          <w xml:id="w.728">ויאמר</w>
+          <w xml:id="w.729">ה͏אדם</w>
+          <w xml:id="w.730">זאת</w>
+          <w xml:id="w.731">הפעם</w>
+          <w xml:id="w.732">עצם</w>
+          <w xml:id="w.733">מעצמי</w>
+          <w xml:id="w.734">ובשר</w>
+          <w xml:id="w.735">מבשרי</w>
+          <w xml:id="w.736">לזאת</w>
+          <w xml:id="w.737">יקרא</w>
+          <w xml:id="w.738">אשה</w>
+          <w xml:id="w.739">כי</w>
+          <w xml:id="w.740">מאיש</w>
+          <w xml:id="w.741">לקחה</w>
+          <w xml:id="w.742">זאת</w>
+        </ab>
+        <ab n="24" type="verse" xml:id="v.2.24">
+          <w xml:id="w.743">על</w>
+          <w xml:id="w.744">כן</w>
+          <w xml:id="w.745">י͏עזב</w>
+          <w xml:id="w.746">איש</w>
+          <w xml:id="w.747">את</w>
+          <w xml:id="w.748">אביו</w>
+          <w xml:id="w.749">ואת</w>
+          <w xml:id="w.750">אמו</w>
+          <w xml:id="w.751">ודבק</w>
+          <w xml:id="w.752">באשתו</w>
+          <w xml:id="w.753">והיו</w>
+          <w xml:id="w.754">לבשר</w>
+          <w xml:id="w.755">אחד</w>
+        </ab>
+        <ab n="25" type="verse" xml:id="v.2.25">
+          <w xml:id="w.756">ויהיו</w>
+          <w xml:id="w.757">שניהם</w>
+          <w xml:id="w.758">ערומים</w>
+          <w xml:id="w.759">האדם</w>
+          <w xml:id="w.760">ואשתו</w>
+          <w xml:id="w.761">ולא</w>
+          <w xml:id="w.762">יתבששו</w>
+        </ab>
+        </div>
+      <div n="3" type="chapter" xml:id="c.3">
+        <ab n="1" type="verse" xml:id="v.3.1">
+          <w xml:id="w.763">והנחש</w>
+          <w xml:id="w.764">היה</w>
+          <w xml:id="w.765">ערום</w>
+          <w xml:id="w.766">מכל</w>
+          <w xml:id="w.767">חית</w>
+          <w xml:id="w.768">השדה</w>
+          <w xml:id="w.769">אשר</w>
+          <w xml:id="w.770">עשה</w>
+          <w xml:id="w.771">יהוה</w>
+          <w xml:id="w.772">אלהים</w>
+          <w xml:id="w.773">ויאמר</w>
+          <w xml:id="w.774">אל</w>
+          <w xml:id="w.775">האשה</w>
+          <w xml:id="w.776">אף</w>
+          <w xml:id="w.777">כי</w>
+          <w xml:id="w.778">אמר</w>
+          <w xml:id="w.779">אלהים</w>
+          <w xml:id="w.780">לא</w>
+          <w xml:id="w.781">תאכלו</w>
+          <w xml:id="w.782">מכל</w>
+          <w xml:id="w.783">עץ</w>
+          <w xml:id="w.784">הגן</w>
+        </ab>
+        <ab n="2" type="verse" xml:id="v.3.2">
+          <w xml:id="w.785">ותאמר</w>
+          <w xml:id="w.786">האשה</w>
+          <w xml:id="w.787">אל</w>
+          <w xml:id="w.788">הנחש</w>
+          <w xml:id="w.789">מפרי</w>
+          <w xml:id="w.790">עץ</w>
+          <w xml:id="w.791">הגן</w>
+          <w xml:id="w.792">נאכל</w>
+        </ab>
+        <ab n="3" type="verse" xml:id="v.3.3">
+          <w xml:id="w.793">ומפרי</w>
+          <w xml:id="w.794">העץ</w>
+          <w xml:id="w.795">אשר</w>
+          <w xml:id="w.796">בתוך</w>
+          <w xml:id="w.797">הגן</w>
+          <w xml:id="w.798">אמר</w>
+          <w xml:id="w.799">אלהים</w>
+          <w xml:id="w.800">לא</w>
+          <w xml:id="w.801">תאכלו</w>
+          <w xml:id="w.802">ממנו</w>
+          <w xml:id="w.803">ולא</w>
+          <w xml:id="w.804">תגעו</w>
+          <w xml:id="w.805">בו</w>
+          <w xml:id="w.806">פן</w>
+          <w xml:id="w.807">תמתון</w>
+        </ab>
+        <ab n="4" type="verse" xml:id="v.3.4">
+          <w xml:id="w.808">ויאמר</w>
+          <w xml:id="w.809">הנחש</w>
+          <w xml:id="w.810">אל</w>
+          <w xml:id="w.811">האשה</w>
+          <w xml:id="w.812">לא</w>
+          <w xml:id="w.813">מות</w>
+          <w xml:id="w.814">תמתון</w>
+        </ab>
+        <ab n="5" type="verse" xml:id="v.3.5">
+          <w xml:id="w.815">כי</w>
+          <w xml:id="w.816">ידע</w>
+          <w xml:id="w.817">אלהים</w>
+          <w xml:id="w.818">כי</w>
+          <w xml:id="w.819">ביום</w>
+          <w xml:id="w.820">אכלכם</w>
+          <w xml:id="w.821">ממנו</w>
+          <w xml:id="w.822">ונפקחו</w>
+          <w xml:id="w.823">עיניכם</w>
+          <w xml:id="w.824">והייתם</w>
+          <w xml:id="w.825">כאלהים</w>
+          <w xml:id="w.826">ידעי</w>
+          <w xml:id="w.827">טוב</w>
+          <w xml:id="w.828">ורע</w>
+        </ab>
+        <ab n="6" type="verse" xml:id="v.3.6">
+          <w xml:id="w.829">ותרא</w>
+          <w xml:id="w.830">האשה</w>
+          <w xml:id="w.831">כי</w>
+          <w xml:id="w.832">טוב</w>
+          <w xml:id="w.833">העץ</w>
+          <w xml:id="w.834">למאכל</w>
+          <w xml:id="w.835">וכי</w>
+          <w xml:id="w.836">תאוה</w>
+          <w xml:id="w.837">הוא</w>
+          <w xml:id="w.838">לעינים</w>
+          <w xml:id="w.839">ונחמד</w>
+          <w xml:id="w.840">העץ</w>
+          <w xml:id="w.841">להשכיל</w>
+          <w xml:id="w.842">ותקח</w>
+          <w xml:id="w.843">מפריו</w>
+          <w xml:id="w.844">ותאכל</w>
+          <w xml:id="w.845">ותתן</w>
+          <w xml:id="w.846">גם</w>
+          <w xml:id="w.847">לאישה</w>
+          <w xml:id="w.848">עמה</w>
+          <w xml:id="w.849">ויאכל</w>
+        </ab>
+        <ab n="7" type="verse" xml:id="v.3.7">
+          <w xml:id="w.850">ותפקחנה</w>
+          <w xml:id="w.851">עיני</w>
+          <w xml:id="w.852">שניהם</w>
+          <w xml:id="w.853">וידעו</w>
+          <w xml:id="w.854">כי</w>
+          <w xml:id="w.855">עירמם</w>
+          <w xml:id="w.856">הם</w>
+          <w xml:id="w.857">ויתפרו</w>
+          <w xml:id="w.858">עלה</w>
+          <w xml:id="w.859">תאנה</w>
+          <w xml:id="w.860">ויעשו</w>
+          <w xml:id="w.861">להם</w>
+          <w xml:id="w.862">חגרת</w>
+        </ab>
+        <ab n="8" type="verse" xml:id="v.3.8">
+          <w xml:id="w.863">וישמעו</w>
+          <w xml:id="w.864">את</w>
+          <w xml:id="w.865">קול</w>
+          <w xml:id="w.866">יהוה</w>
+          <w xml:id="w.867">אלהים</w>
+          <w xml:id="w.868">מתהלך</w>
+          <w xml:id="w.869">בגן</w>
+          <w xml:id="w.870">לרוח</w>
+          <w xml:id="w.871">היום</w>
+          <w xml:id="w.872">ויתחבא</w>
+          <w xml:id="w.873">האדם</w>
+          <w xml:id="w.874">ואשתו</w>
+          <w xml:id="w.875">מפני</w>
+          <w xml:id="w.876">יהוה</w>
+          <w xml:id="w.877">אלהים</w>
+          <w xml:id="w.878">בתוך</w>
+          <w xml:id="w.879">עץ</w>
+          <w xml:id="w.880">הגן</w>
+        </ab>
+        <ab n="9" type="verse" xml:id="v.3.9">
+          <w xml:id="w.881">ויקרא</w>
+          <w xml:id="w.882">יהוה</w>
+          <w xml:id="w.883">אלהים</w>
+          <w xml:id="w.884">אל</w>
+          <w xml:id="w.885">האדם</w>
+          <w xml:id="w.886">ויאמר</w>
+          <w xml:id="w.887">לו</w>
+          <w xml:id="w.888">איכה</w>
+        </ab>
+        <ab n="10" type="verse" xml:id="v.3.10">
+          <w xml:id="w.889">ויאמר</w>
+          <w xml:id="w.890">את</w>
+          <w xml:id="w.891">קלך</w>
+          <w xml:id="w.892">שמעתי</w>
+          <w xml:id="w.893">בגן</w>
+          <w xml:id="w.894">ואירא</w>
+          <w xml:id="w.895">כי</w>
+          <w xml:id="w.896">עירם</w>
+          <w xml:id="w.897">אנכי</w>
+          <w xml:id="w.898">ואחבא</w>
+        </ab>
+        <ab n="11" type="verse" xml:id="v.3.11">
+          <w xml:id="w.899">ויאמר</w>
+          <w xml:id="w.900">מי</w>
+          <w xml:id="w.901">הגיד</w>
+          <w xml:id="w.902">לך</w>
+          <w xml:id="w.903">כי</w>
+          <w xml:id="w.904">עירם</w>
+          <w xml:id="w.905">אתה</w>
+          <w xml:id="w.906">המן</w>
+          <w xml:id="w.907">העץ</w>
+          <w xml:id="w.908">אשר</w>
+          <w xml:id="w.909">צויתיך</w>
+          <w xml:id="w.910">לבלתי</w>
+          <w xml:id="w.911">אכל</w>
+          <w xml:id="w.912">ממנו</w>
+          <w xml:id="w.913">אכלת</w>
+        </ab>
+        <ab n="12" type="verse" xml:id="v.3.12">
+          <w xml:id="w.914">ויאמר</w>
+          <w xml:id="w.915">האדם</w>
+          <w xml:id="w.916">האשה</w>
+          <w xml:id="w.917">אשר</w>
+          <w xml:id="w.918">נתתה</w>
+          <w xml:id="w.919">עמדי</w>
+          <w xml:id="w.920">הוא</w>
+          <w xml:id="w.921">נתנה</w>
+          <w xml:id="w.922">לי</w>
+          <w xml:id="w.923">מן</w>
+          <w xml:id="w.924">העץ</w>
+          <w xml:id="w.925">ואכל</w>
+        </ab>
+        <ab n="13" type="verse" xml:id="v.3.13">
+          <w xml:id="w.926">ויאמר</w>
+          <w xml:id="w.927">יהוה</w>
+          <w xml:id="w.928">אלהים</w>
+          <w xml:id="w.929">לאשה</w>
+          <w xml:id="w.930">מה</w>
+          <w xml:id="w.931">זאת</w>
+          <w xml:id="w.932">עשית</w>
+          <w xml:id="w.933">ותאמר</w>
+          <w xml:id="w.934">האשה</w>
+          <w xml:id="w.935">הנחש</w>
+          <w xml:id="w.936">השיאני</w>
+          <w xml:id="w.937">ואכל</w>
+        </ab>
+        <ab n="14" type="verse" xml:id="v.3.14">
+          <w xml:id="w.938">ויאמר</w>
+          <w xml:id="w.939">יהוה</w>
+          <w xml:id="w.940">אלהים </w>
+          <w xml:id="w.941">אל</w>
+          <w xml:id="w.942">הנחש</w>
+          <w xml:id="w.943">כי</w>
+          <w xml:id="w.944">עשית</w>
+          <w xml:id="w.945">זאת</w>
+          <w xml:id="w.946">ארור</w>
+          <w xml:id="w.947">אתה</w>
+          <w xml:id="w.948">מכל</w>
+          <w xml:id="w.949">הבהמה</w>
+          <w xml:id="w.950">ומכל</w>
+          <w xml:id="w.951">חית</w>
+          <w xml:id="w.952">השדה</w>
+          <w xml:id="w.953">על</w>
+          <w xml:id="w.954">גחנך</w>
+          <w xml:id="w.955">תלך</w>
+          <w xml:id="w.956">ועפר</w>
+          <w xml:id="w.957">תאכל</w>
+          <w xml:id="w.958">כל</w>
+          <w xml:id="w.959">ימי</w>
+          <w xml:id="w.960">חייך</w>
+        </ab>
+        <ab n="15" type="verse" xml:id="v.3.15">
+          <w xml:id="w.961">ואיבה </w>
+          <w xml:id="w.962">אשית</w>
+          <w xml:id="w.963">בינך</w>
+          <w xml:id="w.964">ובין</w>
+          <w xml:id="w.965">האשה</w>
+          <w xml:id="w.966">ובין</w>
+          <w xml:id="w.967">זרעך</w>
+          <w xml:id="w.968">ובין</w>
+          <w xml:id="w.969">זרעה</w>
+          <w xml:id="w.970">הוא</w>
+          <w xml:id="w.971">ישופך</w>
+          <w xml:id="w.972">ראש</w>
+          <w xml:id="w.973">ואתה</w>
+          <w xml:id="w.974">תשופנו</w>
+          <w xml:id="w.975">עקב</w>
+          <space quantity="1" unit="samekh" />
+        </ab>
+        <ab n="16" type="verse" xml:id="v.3.16">
+          <w xml:id="w.976">אל</w>
+          <w xml:id="w.977">האשה</w>
+          <w xml:id="w.978">אמר</w>
+          <w xml:id="w.979">הרבה</w>
+          <w xml:id="w.980">ארבה</w>
+          <w xml:id="w.981">עצבונך</w>
+          <w xml:id="w.982">והרנך</w>
+          <w xml:id="w.983">בעצב</w>
+          <w xml:id="w.984">תלדי</w>
+          <w xml:id="w.985">בנים</w>
+          <w xml:id="w.986">ואל</w>
+          <w xml:id="w.987">אישך</w>
+          <w xml:id="w.988">תשוקתך</w>
+          <w xml:id="w.989">והוא</w>
+          <w xml:id="w.990">ימשל</w>
+          <w xml:id="w.991">בך</w>
+          <space quantity="1" unit="samekh" />
+        </ab>
+        <ab n="17" type="verse" xml:id="v.3.17">
+          <w xml:id="w.992">ולאדם</w>
+          <w xml:id="w.993">אמר</w>
+          <w xml:id="w.994">כי</w>
+          <w xml:id="w.995">שמעת</w>
+          <w xml:id="w.996">לקול</w>
+          <w xml:id="w.997">אשתך</w>
+          <w xml:id="w.998">ותאכל</w>
+          <w xml:id="w.999">מן</w>
+          <w xml:id="w.1000">העץ</w>
+          <w xml:id="w.1001">אשר</w>
+          <w xml:id="w.1002">צויתיך</w>
+          <w xml:id="w.1003">לאמר</w>
+          <w xml:id="w.1004">לא</w>
+          <w xml:id="w.1005">תאכל</w>
+          <w xml:id="w.1006">ממנו</w>
+          <w xml:id="w.1007">ארורה</w>
+          <w xml:id="w.1008">האדמה</w>
+          <w xml:id="w.1009">בעבורך</w>
+          <w xml:id="w.1010">בעצבון</w>
+          <w xml:id="w.1011">תאכלנה</w>
+          <w xml:id="w.1012">כל</w>
+          <w xml:id="w.1013">ימי</w>
+          <w xml:id="w.1014">חייך</w>
+        </ab>
+        <ab n="18" type="verse" xml:id="v.3.18">
+          <w xml:id="w.1015">וקוץ</w>
+          <w xml:id="w.1016">ודרדר</w>
+          <w xml:id="w.1017">תצמיח</w>
+          <w xml:id="w.1018">לך</w>
+          <w xml:id="w.1019">ואכלת</w>
+          <w xml:id="w.1020">את</w>
+          <w xml:id="w.1021">עשב</w>
+          <w xml:id="w.1022">השדה</w>
+        </ab>
+        <ab n="19" type="verse" xml:id="v.3.19">
+          <w xml:id="w.1023">בזעת</w>
+          <w xml:id="w.1024">אפיך</w>
+          <w xml:id="w.1025">תאכל</w>
+          <w xml:id="w.1026">לחם</w>
+          <w xml:id="w.1027">עד</w>
+          <w xml:id="w.1028">שובך</w>
+          <w xml:id="w.1029">אל</w>
+          <w xml:id="w.1030">האדמה</w>
+          <w xml:id="w.1031">כי</w>
+          <w xml:id="w.1032">ממנה</w>
+          <w xml:id="w.1033">לקחת</w>
+          <w xml:id="w.1034">כי</w>
+          <w xml:id="w.1035">עפר</w>
+          <w xml:id="w.1036">אתה</w>
+          <w xml:id="w.1037">ואל</w>
+          <w xml:id="w.1038">עפר</w>
+          <w xml:id="w.1039">תשוב</w>
+        </ab>
+        <ab n="20" type="verse" xml:id="v.3.20">
+          <w xml:id="w.1040">ויקרא</w>
+          <w xml:id="w.1041">האדם</w>
+          <w xml:id="w.1042">שם</w>
+          <w xml:id="w.1043">אשתו</w>
+          <w xml:id="w.1044">חוה</w>
+          <w xml:id="w.1045">כי</w>
+          <w xml:id="w.1046">הוא</w>
+          <w xml:id="w.1047">היתה</w>
+          <w xml:id="w.1048">אם</w>
+          <w xml:id="w.1049">כל</w>
+          <w xml:id="w.1050">חי</w>
+        </ab>
+        <ab n="21" type="verse" xml:id="v.3.21">
+          <w xml:id="w.1051">ויעש</w>
+          <w xml:id="w.1052">יהוה</w>
+          <w xml:id="w.1053">אלהים</w>
+          <w xml:id="w.1054">לאדם</w>
+          <w xml:id="w.1055">ולאשתו</w>
+          <w xml:id="w.1056">כתנות</w>
+          <w xml:id="w.1057">עור</w>
+          <w xml:id="w.1058">וילבשם</w>
+          <space quantity="1" unit="pe" />
+        </ab>
+        <ab n="22" type="verse" xml:id="v.3.22">
+          <w xml:id="w.1059">ויאמר </w>
+          <w xml:id="w.1060">יהוה</w>
+          <w xml:id="w.1061">אלהים</w>
+          <w xml:id="w.1062">הן</w>
+          <w xml:id="w.1063">האדם</w>
+          <w xml:id="w.1064">היה</w>
+          <w xml:id="w.1065">כאחד</w>
+          <w xml:id="w.1066">ממנו</w>
+          <w xml:id="w.1067">לדעת</w>
+          <w xml:id="w.1068">טוב</w>
+          <w xml:id="w.1069">ורע</w>
+          <w xml:id="w.1070">ועתה </w>
+          <w xml:id="w.1071">פן</w>
+          <w xml:id="w.1072">ישלח</w>
+          <w xml:id="w.1073">ידו</w>
+          <w xml:id="w.1074">ולקח</w>
+          <w xml:id="w.1075">גם</w>
+          <w xml:id="w.1076">מעץ</w>
+          <w xml:id="w.1077">החיים</w>
+          <w xml:id="w.1078">ואכל</w>
+          <w xml:id="w.1079">וחי</w>
+          <w xml:id="w.1080">לעלם</w>
+        </ab>
+        <ab n="23" type="verse" xml:id="v.3.23">
+          <w xml:id="w.1081">וישלחהו</w>
+          <w xml:id="w.1082">יהוה</w>
+          <w xml:id="w.1083">אלהים</w>
+          <w xml:id="w.1084">מגן</w>
+          <w xml:id="w.1085">עדן</w>
+          <w xml:id="w.1086">לעבד</w>
+          <w xml:id="w.1087">את</w>
+          <w xml:id="w.1088">האדמה</w>
+          <w xml:id="w.1089">אשר</w>
+          <w xml:id="w.1090">לקח</w>
+          <w xml:id="w.1091">משם</w>
+        </ab>
+        <ab n="24" type="verse" xml:id="v.3.24">
+          <w xml:id="w.1092">ויגרש</w>
+          <w xml:id="w.1093">את</w>
+          <w xml:id="w.1094">האדם</w>
+          <w xml:id="w.1095">וישכן</w>
+          <w xml:id="w.1096">מקדם</w>
+          <w xml:id="w.1097">לגן</w>
+          <w xml:id="w.1098">עדן</w>
+          <w xml:id="w.1099">את</w>
+          <w xml:id="w.1100">הכרבים</w>
+          <w xml:id="w.1101">ואת</w>
+          <w xml:id="w.1102">להט</w>
+          <w xml:id="w.1103">החרב</w>
+          <w xml:id="w.1104">המתהפכת</w>
+          <w xml:id="w.1105">לשמר</w>
+          <w xml:id="w.1106">את</w>
+          <w xml:id="w.1107">דרך</w>
+          <w xml:id="w.1108">עץ</w>
+          <w xml:id="w.1109">החיים</w>
+          <space quantity="1" unit="samekh" />
+        </ab>
+        </div>
+      </div>
+  </body>
+</text>

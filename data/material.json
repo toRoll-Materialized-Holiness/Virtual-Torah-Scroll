@@ -1,0 +1,351 @@
+[
+  {
+    "anno_id" : "ab6e6449-9435-4a21-b9c5-059c6af58547#428e31de-6b67-438f-ad2b-409876332a73",
+    "ink_type" : "Ottiyot Meshunot",
+    "ink_batch" : "Batch 2",
+    "images" : ["Kassel-2Ms-theol1-col59-ink1"],
+    "measurement": { 
+      "data":
+        [
+          {
+            "x": "Cu/Fe",
+            "y": 7
+          },
+          {
+            "x": "Mn/Fe",
+            "y": 5
+          },
+          {
+            "x": "Zn/Fe",
+            "y": 129
+          },
+          {
+            "x": "Ca/Fe",
+            "y": 128
+          },          {
+            "x": "K/Fe",
+            "y": 10
+          }
+        ]  
+    }
+  },{
+    "anno_id" : "5b4ed658-2147-4d71-a3e6-5ce1059d9ca4#ffda7408-279d-4a84-b19c-24994abb491d",
+    "ink_type" : "Ottiyot Meshunot",
+    "ink_batch" : "Batch 2",
+    "images" : ["Kassel-2Ms-theol1-col59-ink2"],
+    "measurement": { 
+      "data":
+        [
+          {
+            "x": "Cu/Fe",
+            "y": 6
+          },
+          {
+            "x": "Mn/Fe",
+            "y": 5
+          },
+          {
+            "x": "Zn/Fe",
+            "y": 141
+          },
+          {
+            "x": "Ca/Fe",
+            "y": 43
+          },          {
+            "x": "K/Fe",
+            "y": 15
+          }
+        ]  
+    }
+  },{
+    "anno_id" : "73ebb7a3-8244-45fe-876c-f7d8d8e7916d#20a27a84-988d-4961-b1a1-a23c8112fb59",
+    "ink_type" : "Ottiyot Meshunot",
+    "ink_batch" : "Batch 2",
+    "images" : ["Kassel-2Ms-theol1-col60-ink"],
+    "measurement": { 
+      "data":
+        [
+          {
+            "x": "Cu/Fe",
+            "y": 2
+          },
+          {
+            "x": "Mn/Fe",
+            "y": 4
+          },
+          {
+            "x": "Zn/Fe",
+            "y": 22
+          },
+          {
+            "x": "Ca/Fe",
+            "y": 97
+          },          {
+            "x": "K/Fe",
+            "y": 8
+          }
+        ]  
+    }
+  },{
+    "anno_id" : "25018ccf-d177-4b13-b740-881c26296f33#07d12ee5-5258-4183-b569-7f11dbc72c30",
+    "ink_type" : "Ottiyot Meshunot",
+    "ink_batch" : "Batch 2",
+    "images" : ["Kassel-2Ms-theol1-col63-ink5"],
+    "measurement": { 
+      "data":
+        [
+          {
+            "x": "Cu/Fe",
+            "y": 3
+          },
+          {
+            "x": "Mn/Fe",
+            "y": 8
+          },
+          {
+            "x": "Zn/Fe",
+            "y": 7
+          },
+          {
+            "x": "Ca/Fe",
+            "y": 92
+          },          {
+            "x": "K/Fe",
+            "y": 16
+          }
+        ]  
+    }
+  },{
+    "anno_id" : "a0014732-eb75-4933-896f-8d9178849ebc#176fad38-40de-4c35-996d-5764c202b2f5",
+    "ink_type" : "Tagin",
+    "ink_batch" : "Batch 2",
+    "images" : ["Kassel-2Ms-theol1-col69-tagin"],
+    "measurement": { 
+      "data":
+        [
+          {
+            "x": "Cu/Fe",
+            "y": 1
+          },
+          {
+            "x": "Mn/Fe",
+            "y": 1
+          },
+          {
+            "x": "Zn/Fe",
+            "y": 1
+          },
+          {
+            "x": "Ca/Fe",
+            "y": 55
+          },          {
+            "x": "K/Fe",
+            "y": 4
+          }
+        ]  
+    }
+  },{
+    "anno_id" : "f9a6af55-9093-4348-a92f-8dc70182aa20#b93299de-71e0-48a5-9f04-b5619d909e48",
+    "ink_type" : "Tagin",
+    "ink_batch" : "Batch 2",
+    "images" : ["Kassel-2Ms-theol1-col69-tagin2"],
+    "measurement": { 
+      "data":
+        [
+          {
+            "x": "Cu/Fe",
+            "y": 1
+          },
+          {
+            "x": "Mn/Fe",
+            "y": 1
+          },
+          {
+            "x": "Zn/Fe",
+            "y": 1
+          },
+          {
+            "x": "Ca/Fe",
+            "y": 41
+          },          {
+            "x": "K/Fe",
+            "y": 4
+          }
+        ]  
+    }
+  },{
+    "anno_id" : "6491b5e8-23c6-47a8-975e-c3f4f5d4e18b#5a52bdd9-9dfb-46c8-b766-02571caa89e0",
+    "ink_type" : "Tagin",
+    "ink_batch" : "Batch 2",
+    "images" : ["Kassel-2Ms-theol1-col69-tagin3"],
+    "measurement": { 
+      "data":
+        [
+          {
+            "x": "Cu/Fe",
+            "y": 1
+          },
+          {
+            "x": "Mn/Fe",
+            "y": 1
+          },
+          {
+            "x": "Zn/Fe",
+            "y": 1
+          },
+          {
+            "x": "Ca/Fe",
+            "y": 55
+          },          {
+            "x": "K/Fe",
+            "y": 4
+          }
+        ]  
+    }
+  },{
+    "anno_id" : "6d9071c5-8895-4481-af31-2058a1ff4e23#2af7ba41-da81-4ed7-a197-6fc3f6067087",
+    "ink_type" : "Ottiyot Meshunot",
+    "ink_batch" : "Batch 2",
+    "images" : ["Kassel-2Ms-theol1-col110-ink5"],
+    "measurement": { 
+      "data":
+        [
+          {
+            "x": "Cu/Fe",
+            "y": 1
+          },
+          {
+            "x": "Mn/Fe",
+            "y": 1
+          },
+          {
+            "x": "Zn/Fe",
+            "y": 1
+          },
+          {
+            "x": "Ca/Fe",
+            "y": 22
+          },          {
+            "x": "K/Fe",
+            "y": 5
+          }
+        ]  
+    }
+  },{
+    "anno_id" : "d7213c00-46c8-4015-8abb-cfb241dbf45b#412d4896-fb73-4a5d-ae7c-b236d964cac6",
+    "ink_type" : "Tagin",
+    "ink_batch" : "Batch 2",
+    "images" : ["Kassel-2Ms-theol1-col125-tagin"],
+    "measurement": { 
+      "data":
+        [
+          {
+            "x": "Cu/Fe",
+            "y": 1
+          },
+          {
+            "x": "Mn/Fe",
+            "y": 1
+          },
+          {
+            "x": "Zn/Fe",
+            "y": 1
+          },
+          {
+            "x": "Ca/Fe",
+            "y": 45
+          },          {
+            "x": "K/Fe",
+            "y": 3
+          }
+        ]  
+    }
+  },{
+    "anno_id" : "08887989-8245-4753-b87e-f404e766abe5#1f211df4-4118-4f77-bf2f-62e6f3536045",
+    "ink_type" : "Tagin",
+    "ink_batch" : "Batch 2",
+    "images" : ["Kassel-2Ms-theol1-col125-tagin2"],
+    "measurement": { 
+      "data":
+        [
+          {
+            "x": "Cu/Fe",
+            "y": 1
+          },
+          {
+            "x": "Mn/Fe",
+            "y": 1
+          },
+          {
+            "x": "Zn/Fe",
+            "y": 1
+          },
+          {
+            "x": "Ca/Fe",
+            "y": 51
+          },          {
+            "x": "K/Fe",
+            "y": 3
+          }
+        ]  
+    }
+  },{
+    "anno_id" : "e914924b-4135-4ffb-8d9f-f514206ad570#77fb9d54-0ddc-498f-9bf1-917a460d266d",
+    "ink_type" : "Tagin",
+    "ink_batch" : "Batch 2",
+    "images" : ["Kassel-2Ms-theol1-col136-ink"],
+    "measurement": { 
+      "data":
+        [
+          {
+            "x": "Cu/Fe",
+            "y": 0
+          },
+          {
+            "x": "Mn/Fe",
+            "y": 1
+          },
+          {
+            "x": "Zn/Fe",
+            "y": 1
+          },
+          {
+            "x": "Ca/Fe",
+            "y": 25
+          },          {
+            "x": "K/Fe",
+            "y": 4
+          }
+        ]  
+    }
+  },{
+    "anno_id" : "c76ac4cf-eda2-4361-b5f4-0819eab07b32#90930000-a4e6-4040-8870-0efd77b7c025",
+    "ink_type" : "Ottiyot Meshunot",
+    "ink_batch" : "Batch 2",
+    "images" : ["Kassel-2Ms-theol1-col136-meshune"],
+    "measurement": { 
+      "data":
+        [
+          {
+            "x": "Cu/Fe",
+            "y": 1
+          },
+          {
+            "x": "Mn/Fe",
+            "y": 1
+          },
+          {
+            "x": "Zn/Fe",
+            "y": 1
+          },
+          {
+            "x": "Ca/Fe",
+            "y": 47
+          },          {
+            "x": "K/Fe",
+            "y": 3
+          }
+        ]  
+    }
+  }
+]

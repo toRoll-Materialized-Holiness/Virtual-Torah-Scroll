@@ -1,0 +1,303 @@
+@import "tailwindcss" prefix(tw);
+
+/* ------------------------------------*/
+/* Shows verse number (n) before verse */
+/* ------------------------------------*/
+
+tei-ab::before{
+	content: "\00000a"attr(n);
+	white-space: pre-wrap;
+	color: green;
+	font-size: 70%;
+	vertical-align: top;
+}
+
+.highlight {
+    background-color: rgb(93, 200, 161);
+    border-radius: 10%;
+  }
+
+  
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.scroll-bg {
+	background-color: #f5e7c0; /* base parchment color */
+	background-image:
+			repeating-linear-gradient(
+					90deg,
+					rgba(255, 255, 255, 0.05) 0px,
+					rgba(0, 0, 0, 0.02) 1px,
+					transparent 3px
+			),
+			radial-gradient(circle at 10% 10%, rgba(255,255,255,0.1), transparent),
+			radial-gradient(circle at 90% 90%, rgba(0,0,0,0.05), transparent);
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+
+.anno-subfilter {
+	margin-top: 2px;
+	padding-left: 40px;
+}
+
+#filterContainer {
+	padding: 10px;
+}
+
+.anno-filter:not(.anno-subfilter) input {
+	margin-right: 5px;
+}
+
+.anno-filter-open-label {
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	margin-right: 5px;
+	transform: translateY(2px);
+	padding: 2px;
+}
+
+.anno-filter-thumb {
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.anno-filter-open:checked + .anno-filter-open-label {
+	transform: rotate(90deg);
+}
+
+.anno-filter-open:not(:checked) ~ .anno-subfilter {
+	display: none;
+}
+
+.anno-filter-checkbox:disabled + .anno-filter-label {
+	opacity: .4;
+}
+
+#checkboxContainer[data-hide-unused="true"] .anno-filter[data-disabled="true"] {
+	display: none;
+}
+
+.join:not(:first-child):not(:last-child) {
+	border-radius: 0;
+	border-right: none;
+	border-left: none;
+}
+
+.join:first-child {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-right: none;
+}
+
+.join:last-child {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-left: none;
+}
+
+.skeleton * {
+	border-radius: 20px;
+	animation: skeleton-flash 1.5s infinite;
+}
+
+@keyframes skeleton-flash {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: .5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#annotationcard_col.visually-hidden + #annotationcard_col_empty_note {
+	display: block;
+}
+
+#annotationcard_col + #annotationcard_col_empty_note {
+	display: none;
+}
+
+/* ------------------------------------*/
+/* Scroll Facts*/
+/* ------------------------------------*/
+.scroll-facts-open:checked + .scroll-facts-open-label {
+	transform: rotate(90deg);
+}
+
+tr:has(.scroll-facts-open:not(:checked)) + .scroll-facts {
+	display: none;
+}
+
+
+/* ------------------------------------*/
+/* Sticks Annocard S*/
+/* ------------------------------------*/
+.overlay {
+    position: sticky;
+    top: 0;
+    left: 0;
+
+   
+}
+
+
+/* ------------------------------------*/
+/* TEXT STRUCTURE SPECIFICS*/
+/* ------------------------------------*/
+
+/* display titles in bold */
+tei-head {
+	font-weight: bold;
+}
+
+/* linebreak after a title, a paragraph
+	chapter/part */
+tei-head, 
+tei-p,
+tei-div {
+	display: block;
+    line-height: 2;
+}
+
+tei-ab {
+	margin-bottom: .20em;
+}
+
+/* linebreak before the start of a new line */
+tei-lb::before {
+    content: "\00000a";
+    white-space: pre-wrap;
+}
+
+/* display the linenumbers in front of the linebeginnings */
+tei-lb[n]::before {
+	color: grey;
+    content: "\00000a"attr(n)"\00a0";
+    white-space: pre-wrap;
+}
+
+/* quotation marks around direct speech */
+tei-said::before, 
+tei-said::after {
+    color: grey;
+	content: "\"";
+}
+
+/* french quotation marks around quotes */
+tei-quote::before {
+	color: grey;
+    content: "»";
+}
+
+tei-quote::after {
+    color: grey;
+	content: "«";
+}
+
+/* text highlights */
+*[rend="sup"] {
+	font-size: 70%;
+	vertical-align: super;
+}
+
+*[rend="superscript"] {
+	font-size: 70%;
+	vertical-align: super;
+}
+
+*[rend="sub"] {
+	font-size: 70%;
+	vertical-align: sub;
+}
+
+*[rend="subscript"] {
+	font-size: 70%;
+	vertical-align: sub;
+}
+
+/* editorial additions (Leiden-style)
+	see https://git.noc.ruhr-uni-bochum.de/sfb1475-inf/subproject-data/-/issues/14#note_116732 */
+tei-supplied::before {
+	color: grey;
+    content: "(";
+}
+
+tei-supplied::after {
+	color: grey;
+    content: ")";
+}
+
+tei-supplied[reason="augment"]::before {
+	color: grey;
+    content: "(";
+}
+
+tei-supplied[reason="augment"]::after {
+    color: grey;
+	content: ")";
+}
+
+tei-supplied[reason="lost"]::before {
+	color: grey;
+    content: "[";
+}
+
+tei-supplied[reason="lost"]::after {
+	color: grey;
+    content: "]";
+}
+
+tei-gap::after {
+	color: grey;
+    content: "[…]";
+}
+
+tei-gap[reason="lost"]::after {
+	color: grey;
+    content: "[…]";
+}
+
+tei-gap[reason="illegible"]::after {
+	color: grey;
+    content: "…";
+}
+
+tei-supplied > tei-gap::after {
+	color: grey;
+    content: "…";
+}
+
+/* titles added by an agent, who is not the author*/
+tei-head[resp] {
+	color: grey;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	  
+}
+
+/* poem specifics*/
+/* ------------------------------------*/
+
+/* display each line in one line
+	and add some sapce after each linegroup */
+tei-l, 
+tei-lg {
+	display: block;
+}
+
+tei-lg {
+	margin-bottom: 1rem;
+}
+
+/* end of text structure specifics */
+/* ------------------------------------ */
