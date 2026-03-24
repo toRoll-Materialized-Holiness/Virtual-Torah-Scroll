@@ -5,7 +5,7 @@ description = "The Virtual Torah Scroll is a web-based interface designed to vis
 
 keywords = ["WADM", "Torah", "tagin", "metadata", "extraction", "annotation"]
 license = "Apache-2.0"
-repository = "https://github.com/toRoll-Testing/Virtual-Torah-Scroll"
+repository = "https://github.com/toRoll-Materialized-Holiness/Virtual-Torah-Scroll/"
 
 # authors of the project:
 
