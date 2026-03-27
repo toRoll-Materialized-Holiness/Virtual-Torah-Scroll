@@ -1,6 +1,6 @@
 [project]
-name = "Virtual-Torah-Scroll"
-version = "v1.0.0"
+name = "virtual-torah-scroll"
+version = "1.0.0"
 description = "The Virtual Torah Scroll is a web-based interface designed to visualize and investigate metadata and data of paleographic details of multiple medieval Torah scrolls. "
 
 keywords = ["WADM", "Torah", "tagin", "metadata", "extraction", "annotation"]

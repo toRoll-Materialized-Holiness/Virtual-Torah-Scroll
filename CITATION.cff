@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: If you use this software, please cite it using these metadata.
 type: software
-title: Virtual-Torah-Scroll
+title: virtual-torah-scroll
 abstract: The Virtual Torah Scroll is a web-based interface designed to 
   visualize and investigate metadata and data of paleographic details of 
   multiple medieval Torah scrolls.
-version: v1.0.0
+version: 1.0.0
 keywords:
   - WADM
   - Torah
@@ -44,4 +44,5 @@ contact:
     given-names: Danah
     affiliation: Karlsruhe Institute of Technology (KIT)
 license: Apache-2.0
-repository-code: https://github.com/toRoll-Testing/Virtual-Torah-Scroll
+repository-code: 
+  https://github.com/toRoll-Materialized-Holiness/Virtual-Torah-Scroll/

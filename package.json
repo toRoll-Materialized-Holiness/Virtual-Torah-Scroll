@@ -1,6 +1,6 @@
 {
-  "name": "Virtual-Torah-Scroll",
-  "version": "v1.0.0",
+  "name": "virtual-torah-scroll",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -50,7 +50,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/toRoll-Testing/Virtual-Torah-Scroll"
+    "url": "https://github.com/toRoll-Materialized-Holiness/Virtual-Torah-Scroll/"
   },
   "contributors": [
     {
