@@ -3,6 +3,8 @@ import { Annotation } from "./types/Annotations"
 import { renderMaterialTab } from "./material"
 import sefertagindata from "../data/sefertagin.json"
 
+import icons from "@toroll/tagin-icons";
+
 // Provide voc_url to redirect to vocabulary term
 const voc_url = "https://w3id.org/toRoll/vocs/taginOM/"
 
@@ -95,8 +97,9 @@ window.openAnnoCard = function openAnnoCard(
       annotation_image.src = "/crops/" + local_img
     } else {
       //try to show a placeholder als fallback
-      annotation_image.src =
-        "/term_placeholder/" + classification_term.innerText + ".png"
+      //annotation_image.src =
+      //  "/term_placeholder/" + classification_term.innerText + ".png"
+      annotation_image.src = icons[classification_term.innerText]
       annotation_image.style = "opacity:0.3;"
     }
     if (annotation_image.src.includes("#xywh=")) {
