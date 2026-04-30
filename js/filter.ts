@@ -241,7 +241,7 @@ function createCheckboxes(
       //term_thumb.src = `./term_placeholder/${term}_${sub}.png`
       term_thumb.src = icons[term + "_" + sub]
       term_thumb.classList.add("anno-filter-thumb")
-      term_thumb.width = 20
+      term_thumb.width = 30
       term_thumb.setAttribute(
         "onerror",
         "this.onerror=null; this.src='./term_placeholder/image-off.png'; this.style='opacity:0.3';",
