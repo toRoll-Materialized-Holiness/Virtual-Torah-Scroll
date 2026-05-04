@@ -2,6 +2,7 @@ import { terms } from "../data/terms.json"
 import { AnnotationFile } from "./types/Annotations"
 import { renderEverything } from "./scroll"
 import { createDisclosureToggle } from "./utils/dom"
+import icons from "@toroll/tagin-icons"
 
 /**
  * builds a filter list and attaches eventListeners needed for filtering to the DOM
@@ -237,9 +238,10 @@ function createCheckboxes(
       label.innerText = sub
 
       const term_thumb = document.createElement("img")
-      term_thumb.src = `./term_placeholder/${term}_${sub}.png`
+      //term_thumb.src = `./term_placeholder/${term}_${sub}.png`
+      term_thumb.src = icons[term + "_" + sub]
       term_thumb.classList.add("anno-filter-thumb")
-      term_thumb.width = 20
+      term_thumb.width = 30
       term_thumb.setAttribute(
         "onerror",
         "this.onerror=null; this.src='./term_placeholder/image-off.png'; this.style='opacity:0.3';",
