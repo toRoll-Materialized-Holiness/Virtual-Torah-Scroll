@@ -8,7 +8,7 @@ import { AnnotationFile } from "./types/Annotations"
  * @throws {Error} If there is an issue with the HTTP request or response.
  */
 export async function loadAnnos(current_book: string) {
-  const response = await fetch("/" + current_book + ".json")
+  const response = await fetch("./" + current_book + ".json")
   if (response.ok) {
     return await response.json()
   } else {

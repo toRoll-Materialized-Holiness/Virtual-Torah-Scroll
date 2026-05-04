@@ -94,11 +94,11 @@ window.openAnnoCard = function openAnnoCard(
     if (!USE_LOCAL_IMGS && img_link !== undefined) {
       annotation_image.src = repo_url + img_link
     } else if (local_img !== undefined) {
-      annotation_image.src = "/crops/" + local_img
+      annotation_image.src = "./crops/" + local_img
     } else {
       //try to show a placeholder als fallback
       //annotation_image.src =
-      //  "/term_placeholder/" + classification_term.innerText + ".png"
+      //  "./term_placeholder/" + classification_term.innerText + ".png"
       annotation_image.src = icons[classification_term.innerText]
       annotation_image.style = "opacity:0.3;"
     }

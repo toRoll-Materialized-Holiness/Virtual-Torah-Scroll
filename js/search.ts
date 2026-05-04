@@ -135,7 +135,7 @@ window.analyzeScrolls = function analyzeScrolls(): void {
     }
   }
 
-  let url = "/scroll.html"
+  let url = "./scroll.html"
 
   if (storageAvailable("localStorage")) {
     localStorage.setItem("selectedScrolls", JSON.stringify(selectedScrolls))

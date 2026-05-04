@@ -5,7 +5,7 @@
  * @returns $teiHtml holding the tei content
  */
 export async function loadBook(fileName: string) {
-  const response = await fetch("/" + fileName + ".html")
+  const response = await fetch("./" + fileName + ".html")
 
   if (response.ok) {
     const html = await response.text()
