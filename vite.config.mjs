@@ -22,4 +22,8 @@ export default defineConfig({
   },
   plugins: [createHtmlPlugin(), tailwindcss()],
   publicDir: "data/public",
+  assetsInclude: ["**/*.svg"],
+  optimizeDeps: {
+    exclude: ["@toroll/tagin-icons"],
+  }
 })
