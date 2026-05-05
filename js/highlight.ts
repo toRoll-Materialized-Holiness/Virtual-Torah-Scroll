@@ -1,4 +1,4 @@
-import "./annotationCard"
+import { openAnnoCard } from "./annotationCard"
 
 /**
  * Highlights the scroll text based on the provided annotations.
@@ -58,7 +58,7 @@ export function highlightText(
     span.setAttribute("data-bs-target", "#annotationcard_col")
     span.id = selector_id
     span.onclick = () =>
-      openAnnoCard(span, span.dataset.selectedscrolls)
+      openAnnoCard(span, span.dataset.selectedscrolls!)
 
     range.surroundContents(span)
 

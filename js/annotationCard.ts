@@ -20,7 +20,7 @@ const repo_url = ""
  * @param {string} selected_scrolls A comma-separated string of selected scroll IDs used to filter and display relevant annotations.
  * @return {void} This function does not return a value but modifies the DOM elements and state of the application to display the annotation card.
  */
-window.openAnnoCard = function openAnnoCard(
+export function openAnnoCard(
   selected_spot: HTMLSpanElement,
   selected_scrolls: string,
 ): void {
