@@ -9,7 +9,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@tabler/core": "1.0.0-beta17",
+    "@tabler/core": "1.4.0",
     "@tailwindcss/vite": "^4.1.3",
     "@toroll/tagin-icons": "^0.1.0",
     "CETEIcean": "^1.9.4",
