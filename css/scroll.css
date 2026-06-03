@@ -20,7 +20,7 @@ tei-ab::before{
   
 body, html {
     height: 100%;
-    margin: 0;
+    margin: 0 !important;
 }
 
 .scroll-bg {
