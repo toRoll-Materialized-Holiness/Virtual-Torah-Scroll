@@ -22,7 +22,7 @@
     "@eslint/js": "^9.23.0",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.28.0",
-    "vite": "^6.2.3",
+    "vite": "^6.4.2",
     "vite-plugin-html": "^3.2.2"
   },
   "description": "The Virtual Torah Scroll is a web-based interface designed to visualize and investigate metadata and data of paleographic details of multiple medieval Torah scrolls.",
