@@ -14,7 +14,7 @@
     "@toroll/tagin-icons": "^0.1.0",
     "CETEIcean": "^1.9.4",
     "chart.js": "^4.4.9",
-    "jsdom": "^26.1.0",
+    "jsdom": "^29.0.0",
     "prettier": "^3.5.3",
     "tailwindcss": "^4.1.3"
   },
